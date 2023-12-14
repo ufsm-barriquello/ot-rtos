@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação_Sensor_de_Luz: Referência do Arquivo D:/Usuário/Dell/Desktop/ot-rtos/Sensor_de_luz_versão_final/IO_samr21/at30tse75x.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação_Sensor_de_Luz
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4dc6d53be72759a689b64c47773126cb.html">IO_samr21</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo at30tse75x.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>AT30TSE75X driver.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;<a class="el" href="at30tse75x_8h_source.html">at30tse75x.h</a>&gt;</code><br />
+<code>#include &lt;hal_i2c_m_sync.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="temperature__sensor_8h_source.html">temperature_sensor.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="at30tse75x__config_8h_source.html">at30tse75x_config.h</a>&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a090733c713266adcbd9ad2b1eff38570" id="r_a090733c713266adcbd9ad2b1eff38570"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="at30tse75x_8c.html#a090733c713266adcbd9ad2b1eff38570">AT30TSE_TEMPERATURE_REG</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a090733c713266adcbd9ad2b1eff38570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6b2a38b1b97ce7f692673b3974c71c" id="r_a0b6b2a38b1b97ce7f692673b3974c71c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="at30tse75x_8c.html#a0b6b2a38b1b97ce7f692673b3974c71c">AT30TSE_CONFIGURATION_REG</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a0b6b2a38b1b97ce7f692673b3974c71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c670648abd8a29c415846d70ca88a3a" id="r_a3c670648abd8a29c415846d70ca88a3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="at30tse75x_8c.html#a3c670648abd8a29c415846d70ca88a3a">AT30TSE_NON_VOLATILE_REG_TYPE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a3c670648abd8a29c415846d70ca88a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a755469a882f28d431a0c9d7538d941dc" id="r_a755469a882f28d431a0c9d7538d941dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="at30tse75x_8c.html#a755469a882f28d431a0c9d7538d941dc">AT30TSE_SENSOR_ADDRESS</a>&#160;&#160;&#160;0x4F</td></tr>
+<tr class="separator:a755469a882f28d431a0c9d7538d941dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41c1df20c3ca46fd5e50c8c64b716fb9" id="r_a41c1df20c3ca46fd5e50c8c64b716fb9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="at30tse75x_8c.html#a41c1df20c3ca46fd5e50c8c64b716fb9">AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET</a>&#160;&#160;&#160;13</td></tr>
+<tr class="separator:a41c1df20c3ca46fd5e50c8c64b716fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:af1b16232ef781454dc477f84eb277124" id="r_af1b16232ef781454dc477f84eb277124"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtemperature__sensor.html">temperature_sensor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="at30tse75x_8c.html#af1b16232ef781454dc477f84eb277124">at30tse75x_construct</a> (struct <a class="el" href="structtemperature__sensor.html">temperature_sensor</a> *const me, void *const io, const uint8_t resolution)</td></tr>
+<tr class="memdesc:af1b16232ef781454dc477f84eb277124"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct <a class="el" href="structat30tse75x.html" title="AT30TSE75x temperature sensor.">at30tse75x</a> temperature sensor.  <br /></td></tr>
+<tr class="separator:af1b16232ef781454dc477f84eb277124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae741537990d453fde3646ec60fd25d2c" id="r_ae741537990d453fde3646ec60fd25d2c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="at30tse75x_8c.html#ae741537990d453fde3646ec60fd25d2c">at30tse75x_read</a> (const struct <a class="el" href="structtemperature__sensor.html">temperature_sensor</a> *const me)</td></tr>
+<tr class="memdesc:ae741537990d453fde3646ec60fd25d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read temperature from the given sensor.  <br /></td></tr>
+<tr class="separator:ae741537990d453fde3646ec60fd25d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>AT30TSE75X driver. </p>
+<p>Copyright (c) 2016-2018 Microchip Technology Inc. and its subsidiaries.</p>
+<p>\asf_license_start </p>
+</div><h2 class="groupheader">Definições e macros</h2>
+<a id="a0b6b2a38b1b97ce7f692673b3974c71c" name="a0b6b2a38b1b97ce7f692673b3974c71c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b6b2a38b1b97ce7f692673b3974c71c">&#9670;&#160;</a></span>AT30TSE_CONFIGURATION_REG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AT30TSE_CONFIGURATION_REG&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41c1df20c3ca46fd5e50c8c64b716fb9" name="a41c1df20c3ca46fd5e50c8c64b716fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41c1df20c3ca46fd5e50c8c64b716fb9">&#9670;&#160;</a></span>AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET&#160;&#160;&#160;13</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offset of resolution bit-field </p>
+
+</div>
+</div>
+<a id="a3c670648abd8a29c415846d70ca88a3a" name="a3c670648abd8a29c415846d70ca88a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c670648abd8a29c415846d70ca88a3a">&#9670;&#160;</a></span>AT30TSE_NON_VOLATILE_REG_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AT30TSE_NON_VOLATILE_REG_TYPE&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Register types of <a class="el" href="structat30tse75x.html" title="AT30TSE75x temperature sensor.">at30tse75x</a> </p>
+
+</div>
+</div>
+<a id="a755469a882f28d431a0c9d7538d941dc" name="a755469a882f28d431a0c9d7538d941dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a755469a882f28d431a0c9d7538d941dc">&#9670;&#160;</a></span>AT30TSE_SENSOR_ADDRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AT30TSE_SENSOR_ADDRESS&#160;&#160;&#160;0x4F</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Address of temperature sensor </p>
+
+</div>
+</div>
+<a id="a090733c713266adcbd9ad2b1eff38570" name="a090733c713266adcbd9ad2b1eff38570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a090733c713266adcbd9ad2b1eff38570">&#9670;&#160;</a></span>AT30TSE_TEMPERATURE_REG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AT30TSE_TEMPERATURE_REG&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Register addresses of <a class="el" href="structat30tse75x.html" title="AT30TSE75x temperature sensor.">at30tse75x</a> </p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="af1b16232ef781454dc477f84eb277124" name="af1b16232ef781454dc477f84eb277124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b16232ef781454dc477f84eb277124">&#9670;&#160;</a></span>at30tse75x_construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structtemperature__sensor.html">temperature_sensor</a> * at30tse75x_construct </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structtemperature__sensor.html">temperature_sensor</a> *const&#160;</td>
+          <td class="paramname"><em>me</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *const&#160;</td>
+          <td class="paramname"><em>io</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>resolution</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct <a class="el" href="structat30tse75x.html" title="AT30TSE75x temperature sensor.">at30tse75x</a> temperature sensor. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">me</td><td>The pointer to temperature sensor to initialize </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">io</td><td>The pointer to instance of interface to actual sensor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">resolution</td><td>The resolution of temperature sensor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>pointer to initialized sensor </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{</div>
+<div class="line"><span class="lineno">   64</span>    uint8_t                 data[3];</div>
+<div class="line"><span class="lineno">   65</span>    <span class="keyword">struct </span>i2c_m_sync_desc *descr;</div>
+<div class="line"><span class="lineno">   66</span>    <span class="keyword">struct </span><a class="code hl_struct" href="structat30tse75x.html">at30tse75x</a> *     at30 = (<span class="keyword">struct </span><a class="code hl_struct" href="structat30tse75x.html">at30tse75x</a> *)me;</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_function" href="temperature__sensor_8c.html#a71613e043a48cb8196828eb20138c84c">temperature_sensor_construct</a>(me, io, &amp;at30tse75x_interface);</div>
+<div class="line"><span class="lineno">   69</span>    descr            = (<span class="keyword">struct </span>i2c_m_sync_desc *)(me-&gt;<a class="code hl_variable" href="structtemperature__sensor.html#aa56baab274fc97d1f07100995d9b208e">io</a>);</div>
+<div class="line"><span class="lineno">   70</span>    at30-&gt;<a class="code hl_variable" href="structat30tse75x.html#a4cde7eb5b772226c585d7d62cf4afd6b">resolution</a> = resolution;</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    data[0] = <a class="code hl_define" href="at30tse75x_8c.html#a0b6b2a38b1b97ce7f692673b3974c71c">AT30TSE_CONFIGURATION_REG</a> | <a class="code hl_define" href="at30tse75x_8c.html#a3c670648abd8a29c415846d70ca88a3a">AT30TSE_NON_VOLATILE_REG_TYPE</a>;</div>
+<div class="line"><span class="lineno">   73</span>    data[1] = (uint16_t)(at30-&gt;<a class="code hl_variable" href="structat30tse75x.html#a4cde7eb5b772226c585d7d62cf4afd6b">resolution</a>) &lt;&lt; (<a class="code hl_define" href="at30tse75x_8c.html#a41c1df20c3ca46fd5e50c8c64b716fb9">AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET</a> - 8);</div>
+<div class="line"><span class="lineno">   74</span>    data[2] = 0;</div>
+<div class="line"><span class="lineno">   75</span>    i2c_m_sync_set_slaveaddr(descr, <a class="code hl_define" href="at30tse75x_8c.html#a755469a882f28d431a0c9d7538d941dc">AT30TSE_SENSOR_ADDRESS</a>, I2C_M_SEVEN);</div>
+<div class="line"><span class="lineno">   76</span>    io_write(&amp;descr-&gt;io, data, 3);</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">return</span> me;</div>
+<div class="line"><span class="lineno">   79</span>}</div>
+<div class="ttc" id="aat30tse75x_8c_html_a0b6b2a38b1b97ce7f692673b3974c71c"><div class="ttname"><a href="at30tse75x_8c.html#a0b6b2a38b1b97ce7f692673b3974c71c">AT30TSE_CONFIGURATION_REG</a></div><div class="ttdeci">#define AT30TSE_CONFIGURATION_REG</div><div class="ttdef"><b>Definição</b> at30tse75x.c:44</div></div>
+<div class="ttc" id="aat30tse75x_8c_html_a3c670648abd8a29c415846d70ca88a3a"><div class="ttname"><a href="at30tse75x_8c.html#a3c670648abd8a29c415846d70ca88a3a">AT30TSE_NON_VOLATILE_REG_TYPE</a></div><div class="ttdeci">#define AT30TSE_NON_VOLATILE_REG_TYPE</div><div class="ttdef"><b>Definição</b> at30tse75x.c:47</div></div>
+<div class="ttc" id="aat30tse75x_8c_html_a41c1df20c3ca46fd5e50c8c64b716fb9"><div class="ttname"><a href="at30tse75x_8c.html#a41c1df20c3ca46fd5e50c8c64b716fb9">AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET</a></div><div class="ttdeci">#define AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET</div><div class="ttdef"><b>Definição</b> at30tse75x.c:53</div></div>
+<div class="ttc" id="aat30tse75x_8c_html_a755469a882f28d431a0c9d7538d941dc"><div class="ttname"><a href="at30tse75x_8c.html#a755469a882f28d431a0c9d7538d941dc">AT30TSE_SENSOR_ADDRESS</a></div><div class="ttdeci">#define AT30TSE_SENSOR_ADDRESS</div><div class="ttdef"><b>Definição</b> at30tse75x.c:50</div></div>
+<div class="ttc" id="astructat30tse75x_html"><div class="ttname"><a href="structat30tse75x.html">at30tse75x</a></div><div class="ttdoc">AT30TSE75x temperature sensor.</div><div class="ttdef"><b>Definição</b> at30tse75x.h:49</div></div>
+<div class="ttc" id="astructat30tse75x_html_a4cde7eb5b772226c585d7d62cf4afd6b"><div class="ttname"><a href="structat30tse75x.html#a4cde7eb5b772226c585d7d62cf4afd6b">at30tse75x::resolution</a></div><div class="ttdeci">uint8_t resolution</div><div class="ttdef"><b>Definição</b> at30tse75x.h:53</div></div>
+<div class="ttc" id="astructtemperature__sensor_html_aa56baab274fc97d1f07100995d9b208e"><div class="ttname"><a href="structtemperature__sensor.html#aa56baab274fc97d1f07100995d9b208e">temperature_sensor::io</a></div><div class="ttdeci">void * io</div><div class="ttdef"><b>Definição</b> temperature_sensor.h:58</div></div>
+<div class="ttc" id="atemperature__sensor_8c_html_a71613e043a48cb8196828eb20138c84c"><div class="ttname"><a href="temperature__sensor_8c.html#a71613e043a48cb8196828eb20138c84c">temperature_sensor_construct</a></div><div class="ttdeci">struct temperature_sensor * temperature_sensor_construct(struct temperature_sensor *const me, void *const io, const struct temperature_sensor_interface *const interface)</div><div class="ttdoc">Construct abstract temperature sensor.</div><div class="ttdef"><b>Definição</b> temperature_sensor.c:39</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae741537990d453fde3646ec60fd25d2c" name="ae741537990d453fde3646ec60fd25d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae741537990d453fde3646ec60fd25d2c">&#9670;&#160;</a></span>at30tse75x_read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float at30tse75x_read </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="structtemperature__sensor.html">temperature_sensor</a> *const&#160;</td>
+          <td class="paramname"><em>me</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read temperature from the given sensor. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">me</td><td>The pointer to temperature sensor to read temperature from</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>temperature </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   85</span>{</div>
+<div class="line"><span class="lineno">   86</span>    uint8_t                 buffer[2];</div>
+<div class="line"><span class="lineno">   87</span>    <span class="keyword">struct </span><a class="code hl_struct" href="structat30tse75x.html">at30tse75x</a> *     at30  = (<span class="keyword">struct </span><a class="code hl_struct" href="structat30tse75x.html">at30tse75x</a> *)me;</div>
+<div class="line"><span class="lineno">   88</span>    <span class="keyword">struct </span>i2c_m_sync_desc *descr = (<span class="keyword">struct </span>i2c_m_sync_desc *)(me-&gt;<a class="code hl_variable" href="structtemperature__sensor.html#aa56baab274fc97d1f07100995d9b208e">io</a>);</div>
+<div class="line"><span class="lineno">   89</span>    uint16_t                data;</div>
+<div class="line"><span class="lineno">   90</span>    int8_t                  sign = 1;</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>    <span class="comment">/* Read the 16-bit temperature register. */</span></div>
+<div class="line"><span class="lineno">   93</span>    buffer[0] = <a class="code hl_define" href="at30tse75x_8c.html#a090733c713266adcbd9ad2b1eff38570">AT30TSE_TEMPERATURE_REG</a> | <a class="code hl_define" href="at30tse75x_8c.html#a3c670648abd8a29c415846d70ca88a3a">AT30TSE_NON_VOLATILE_REG_TYPE</a>;</div>
+<div class="line"><span class="lineno">   94</span>    buffer[1] = 0;</div>
+<div class="line"><span class="lineno">   95</span>    i2c_m_sync_set_slaveaddr(descr, <a class="code hl_define" href="at30tse75x_8c.html#a755469a882f28d431a0c9d7538d941dc">AT30TSE_SENSOR_ADDRESS</a>, I2C_M_SEVEN);</div>
+<div class="line"><span class="lineno">   96</span>    io_write(&amp;descr-&gt;io, buffer, 1);</div>
+<div class="line"><span class="lineno">   97</span>    io_read(&amp;descr-&gt;io, buffer, 2);</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>    data = (buffer[0] &lt;&lt; 8) | buffer[1];</div>
+<div class="line"><span class="lineno">  100</span>    sign -= (bool)(data &amp; (1 &lt;&lt; 15)) &lt;&lt; 1;</div>
+<div class="line"><span class="lineno">  101</span>    data &amp;= ~(1 &lt;&lt; 15);</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>    <span class="comment">/* Convert to temperature */</span></div>
+<div class="line"><span class="lineno">  104</span>    data = data &gt;&gt; (7 - at30-&gt;<a class="code hl_variable" href="structat30tse75x.html#a4cde7eb5b772226c585d7d62cf4afd6b">resolution</a>);</div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">return</span> (<span class="keywordtype">float</span>)data * sign * (0.5 / (1 &lt;&lt; at30-&gt;<a class="code hl_variable" href="structat30tse75x.html#a4cde7eb5b772226c585d7d62cf4afd6b">resolution</a>));</div>
+<div class="line"><span class="lineno">  106</span>}</div>
+<div class="ttc" id="aat30tse75x_8c_html_a090733c713266adcbd9ad2b1eff38570"><div class="ttname"><a href="at30tse75x_8c.html#a090733c713266adcbd9ad2b1eff38570">AT30TSE_TEMPERATURE_REG</a></div><div class="ttdeci">#define AT30TSE_TEMPERATURE_REG</div><div class="ttdef"><b>Definição</b> at30tse75x.c:43</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

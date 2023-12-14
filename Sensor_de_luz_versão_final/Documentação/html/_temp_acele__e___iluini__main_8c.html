@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação_Sensor_de_Luz: Referência do Arquivo D:/Usuário/Dell/Desktop/ot-rtos/Sensor_de_luz_versão_final/IO_samr21/TempAcele_e_Iluini_main.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação_Sensor_de_Luz
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4dc6d53be72759a689b64c47773126cb.html">IO_samr21</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo TempAcele_e_Iluini_main.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="atmel__start_8h_source.html">atmel_start.h</a>&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &quot;lib/BNO055/bno055.h&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a5153d4ff4e17d4e2588a4b54d691a962" id="r_a5153d4ff4e17d4e2588a4b54d691a962"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a5153d4ff4e17d4e2588a4b54d691a962">VCC_TARGET</a>&#160;&#160;&#160;3.3</td></tr>
+<tr class="separator:a5153d4ff4e17d4e2588a4b54d691a962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:aefaca5b7b3408317da5cdc67fdde2194" id="r_aefaca5b7b3408317da5cdc67fdde2194"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#aefaca5b7b3408317da5cdc67fdde2194">Light_sensor_init</a> (void)</td></tr>
+<tr class="separator:aefaca5b7b3408317da5cdc67fdde2194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5068abd51de11b3f9de7a37830fd69ce" id="r_a5068abd51de11b3f9de7a37830fd69ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a5068abd51de11b3f9de7a37830fd69ce">USART_dbg_init</a> (void)</td></tr>
+<tr class="separator:a5068abd51de11b3f9de7a37830fd69ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e05958fda7e92003cddc5cdd9a982e7" id="r_a9e05958fda7e92003cddc5cdd9a982e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a9e05958fda7e92003cddc5cdd9a982e7">UART_write_byte</a> (uint8_t byte_to_send)</td></tr>
+<tr class="separator:a9e05958fda7e92003cddc5cdd9a982e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4cc0bbf5a1c8e0853b353bd3fcf3c35" id="r_ab4cc0bbf5a1c8e0853b353bd3fcf3c35"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#ab4cc0bbf5a1c8e0853b353bd3fcf3c35">GET_light_sensor</a> (void)</td></tr>
+<tr class="separator:ab4cc0bbf5a1c8e0853b353bd3fcf3c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44bb1b555c7bcda96539dbcf5bde833d" id="r_a44bb1b555c7bcda96539dbcf5bde833d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a44bb1b555c7bcda96539dbcf5bde833d">SET_IO1X_LED_ON</a> (void)</td></tr>
+<tr class="separator:a44bb1b555c7bcda96539dbcf5bde833d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0636752822cc605176ab5581b2ec6ab7" id="r_a0636752822cc605176ab5581b2ec6ab7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a0636752822cc605176ab5581b2ec6ab7">SET_IO1X_LED_OFF</a> (void)</td></tr>
+<tr class="separator:a0636752822cc605176ab5581b2ec6ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05deeba86f91bb43194d680c208e679b" id="r_a05deeba86f91bb43194d680c208e679b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a05deeba86f91bb43194d680c208e679b">floatToString</a> (float num, char *str, int precision)</td></tr>
+<tr class="memdesc:a05deeba86f91bb43194d680c208e679b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converte um n�mero float em string com a precis�o informada.  <br /></td></tr>
+<tr class="separator:a05deeba86f91bb43194d680c208e679b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe" id="r_a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
+<tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:a1f477dd9dbc6e22939ecdb738987d2df" id="r_a1f477dd9dbc6e22939ecdb738987d2df"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a1f477dd9dbc6e22939ecdb738987d2df">conversion_done</a> = false</td></tr>
+<tr class="separator:a1f477dd9dbc6e22939ecdb738987d2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d3ac35b415bd30142c1662666814b6" id="r_a47d3ac35b415bd30142c1662666814b6"><td class="memItemLeft" align="right" valign="top">struct io_descriptor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a47d3ac35b415bd30142c1662666814b6">USART_debug_io</a></td></tr>
+<tr class="separator:a47d3ac35b415bd30142c1662666814b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacfb0180a2a5342184debc1372fac57" id="r_afacfb0180a2a5342184debc1372fac57"><td class="memItemLeft" align="right" valign="top">struct bno055_dev&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#afacfb0180a2a5342184debc1372fac57">bno055</a></td></tr>
+<tr class="separator:afacfb0180a2a5342184debc1372fac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c141f5996748caa7bf76fba549718f9" id="r_a3c141f5996748caa7bf76fba549718f9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a3c141f5996748caa7bf76fba549718f9">acceleration_x</a></td></tr>
+<tr class="separator:a3c141f5996748caa7bf76fba549718f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ce4836619cdf277b1b00f34b314096" id="r_af4ce4836619cdf277b1b00f34b314096"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#af4ce4836619cdf277b1b00f34b314096">acceleration_y</a></td></tr>
+<tr class="separator:af4ce4836619cdf277b1b00f34b314096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d74e0444efcc693cb74f6f2807e1c6" id="r_a77d74e0444efcc693cb74f6f2807e1c6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#a77d74e0444efcc693cb74f6f2807e1c6">acceleration_z</a></td></tr>
+<tr class="separator:a77d74e0444efcc693cb74f6f2807e1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1d28cfbce795d6ea954ebe725241f5" id="r_afc1d28cfbce795d6ea954ebe725241f5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_temp_acele__e___iluini__main_8c.html#afc1d28cfbce795d6ea954ebe725241f5">temperature</a></td></tr>
+<tr class="separator:afc1d28cfbce795d6ea954ebe725241f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Definições e macros</h2>
+<a id="a5153d4ff4e17d4e2588a4b54d691a962" name="a5153d4ff4e17d4e2588a4b54d691a962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5153d4ff4e17d4e2588a4b54d691a962">&#9670;&#160;</a></span>VCC_TARGET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VCC_TARGET&#160;&#160;&#160;3.3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="a05deeba86f91bb43194d680c208e679b" name="a05deeba86f91bb43194d680c208e679b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05deeba86f91bb43194d680c208e679b">&#9670;&#160;</a></span>floatToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void floatToString </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>precision</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converte um n�mero float em string com a precis�o informada. </p>
+<p>Converte um número float em string com a precisão informada É usada para poder imprimir um valor float na tela usando o sprintf O compilador usado não aceita float no sprintf </p>
+<div class="fragment"><div class="line"><span class="lineno">   85</span>                                                        {</div>
+<div class="line"><span class="lineno">   86</span>    <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>    <span class="comment">// Extract the integral part</span></div>
+<div class="line"><span class="lineno">   89</span>    <span class="keywordtype">int</span> integralPart = (int)num;</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>    <span class="comment">// Convert the integral part to string</span></div>
+<div class="line"><span class="lineno">   92</span>    <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">   93</span>        str[i++] = integralPart % 10 + <span class="charliteral">&#39;0&#39;</span>;</div>
+<div class="line"><span class="lineno">   94</span>        integralPart /= 10;</div>
+<div class="line"><span class="lineno">   95</span>    } <span class="keywordflow">while</span> (integralPart &gt; 0);</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>    <span class="comment">// Reverse the integral part string</span></div>
+<div class="line"><span class="lineno">   98</span>    <span class="keywordtype">int</span> j;</div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordtype">int</span> len = i;</div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">for</span> (j = 0; j &lt; len / 2; j++) {</div>
+<div class="line"><span class="lineno">  101</span>        <span class="keywordtype">char</span> temp = str[j];</div>
+<div class="line"><span class="lineno">  102</span>        str[j] = str[len - j - 1];</div>
+<div class="line"><span class="lineno">  103</span>        str[len - j - 1] = temp;</div>
+<div class="line"><span class="lineno">  104</span>    }</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>    <span class="comment">// Add decimal point</span></div>
+<div class="line"><span class="lineno">  107</span>    str[i++] = <span class="charliteral">&#39;.&#39;</span>;</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>    <span class="comment">// Extract the fractional part</span></div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordtype">float</span> fractionalPart = num - (int)num;</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>    <span class="comment">// Convert the fractional part to string</span></div>
+<div class="line"><span class="lineno">  113</span>    <span class="keywordtype">int</span> k;</div>
+<div class="line"><span class="lineno">  114</span>    <span class="keywordflow">for</span> (k = 0; k &lt; precision; k++) {</div>
+<div class="line"><span class="lineno">  115</span>        fractionalPart *= 10;</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordtype">int</span> digit = (int)fractionalPart;</div>
+<div class="line"><span class="lineno">  117</span>        str[i++] = digit + <span class="charliteral">&#39;0&#39;</span>;</div>
+<div class="line"><span class="lineno">  118</span>        fractionalPart -= digit;</div>
+<div class="line"><span class="lineno">  119</span>    }</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>    <span class="comment">// Add null-terminating character</span></div>
+<div class="line"><span class="lineno">  122</span>    str[i] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  123</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab4cc0bbf5a1c8e0853b353bd3fcf3c35" name="ab4cc0bbf5a1c8e0853b353bd3fcf3c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4cc0bbf5a1c8e0853b353bd3fcf3c35">&#9670;&#160;</a></span>GET_light_sensor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GET_light_sensor </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Lê o valor digital do sensor de luz após passar pelo ADC e calcula e entrega a iluminância com base nas características elétricas do sensor </p>
+<div class="fragment"><div class="line"><span class="lineno">   47</span>                            {</div>
+<div class="line"><span class="lineno">   48</span>    uint8_t lightSensorValue;</div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordtype">float</span> voltageSensor;</div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordtype">float</span> iluminance;</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    <span class="comment">/* Faz a conversão AD do sensor de luz*/</span></div>
+<div class="line"><span class="lineno">   53</span>    adc_async_start_conversion(&amp;Light_sensor_ADC);</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">while</span>(!<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#a1f477dd9dbc6e22939ecdb738987d2df">conversion_done</a>){}</div>
+<div class="line"><span class="lineno">   55</span>    adc_async_read_channel(&amp;Light_sensor_ADC, 0, &amp;lightSensorValue, 1);</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    <span class="comment">/* Faz a definição dos valores de tensão lidos do sensor a partir dos dados quantizados do ADC*/</span></div>
+<div class="line"><span class="lineno">   58</span>    voltageSensor = lightSensorValue * <a class="code hl_define" href="_temp_acele__e___iluini__main_8c.html#a5153d4ff4e17d4e2588a4b54d691a962">VCC_TARGET</a> / 255;</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>    <span class="comment">/* Calcula a iluminância com base na corrente do resistor de coletor do fototransistor e na relação entre lux e corrente*/</span></div>
+<div class="line"><span class="lineno">   61</span>    iluminance = (<a class="code hl_define" href="_temp_acele__e___iluini__main_8c.html#a5153d4ff4e17d4e2588a4b54d691a962">VCC_TARGET</a> - voltageSensor) * 200;</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">return</span> iluminance;</div>
+<div class="line"><span class="lineno">   64</span>}</div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_a1f477dd9dbc6e22939ecdb738987d2df"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#a1f477dd9dbc6e22939ecdb738987d2df">conversion_done</a></div><div class="ttdeci">volatile bool conversion_done</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:7</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_a5153d4ff4e17d4e2588a4b54d691a962"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#a5153d4ff4e17d4e2588a4b54d691a962">VCC_TARGET</a></div><div class="ttdeci">#define VCC_TARGET</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:5</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aefaca5b7b3408317da5cdc67fdde2194" name="aefaca5b7b3408317da5cdc67fdde2194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefaca5b7b3408317da5cdc67fdde2194">&#9670;&#160;</a></span>Light_sensor_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Light_sensor_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inicializa o conversor AD para o sensor de luz </p>
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    adc_async_register_callback(&amp;Light_sensor_ADC, 0, ADC_ASYNC_CONVERT_CB, convert_cb_Light_sensor_ADC);</div>
+<div class="line"><span class="lineno">   25</span>    adc_async_enable_channel(&amp;Light_sensor_ADC, 0);</div>
+<div class="line"><span class="lineno">   26</span>    adc_async_start_conversion(&amp;Light_sensor_ADC);</div>
+<div class="line"><span class="lineno">   27</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a840291bc02cba5474a4cb46a9b9566fe" name="a840291bc02cba5474a4cb46a9b9566fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  132</span>{</div>
+<div class="line"><span class="lineno">  133</span>    <span class="comment">/* Initializes MCU, drivers and middleware */</span></div>
+<div class="line"><span class="lineno">  134</span>    <a class="code hl_function" href="atmel__start_8c.html#a4ead477dfb261fce0f4bf92e76c74045">atmel_start_init</a>();</div>
+<div class="line"><span class="lineno">  135</span>    <a class="code hl_function" href="_temp_acele__e___iluini__main_8c.html#aefaca5b7b3408317da5cdc67fdde2194">Light_sensor_init</a>();</div>
+<div class="line"><span class="lineno">  136</span>    <a class="code hl_function" href="_temp_acele__e___iluini__main_8c.html#a5068abd51de11b3f9de7a37830fd69ce">USART_dbg_init</a>();</div>
+<div class="line"><span class="lineno">  137</span> </div>
+<div class="line"><span class="lineno">  138</span>    <span class="keywordtype">char</span> message[50];</div>
+<div class="line"><span class="lineno">  139</span>    <span class="keywordtype">char</span> acceleration_str[10];</div>
+<div class="line"><span class="lineno">  140</span>    <span class="keywordtype">char</span> temperature_str[10];</div>
+<div class="line"><span class="lineno">  141</span> </div>
+<div class="line"><span class="lineno">  142</span>    <span class="comment">/* Inicializa o acelerômetro */</span></div>
+<div class="line"><span class="lineno">  143</span>    bno055_init(&amp;<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#afacfb0180a2a5342184debc1372fac57">bno055</a>); <span class="comment">// Corrigido para usar &#39;bno055_init&#39; em vez de &#39;struct bno055_init&#39;</span></div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>    <span class="keywordflow">while</span> (1) {</div>
+<div class="line"><span class="lineno">  146</span>        <span class="comment">/* Lê os dados de aceleração do acelerômetro */</span></div>
+<div class="line"><span class="lineno">  147</span>        bno055_read_acceleration(&amp;<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#afacfb0180a2a5342184debc1372fac57">bno055</a>, &amp;<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#a3c141f5996748caa7bf76fba549718f9">acceleration_x</a>, &amp;<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#af4ce4836619cdf277b1b00f34b314096">acceleration_y</a>, &amp;<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#a77d74e0444efcc693cb74f6f2807e1c6">acceleration_z</a>); <span class="comment">// Corrigido para usar &#39;bno055_read_acceleration&#39; em vez de &#39;struct bno055_read_acceleration&#39;</span></div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>        <span class="comment">/* Lê a temperatura do sensor */</span></div>
+<div class="line"><span class="lineno">  150</span>        <a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#afc1d28cfbce795d6ea954ebe725241f5">temperature</a> = bno055_get_temperature(&amp;<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#afacfb0180a2a5342184debc1372fac57">bno055</a>); <span class="comment">// Corrigido para usar &#39;bno055_get_temperature&#39; em vez de &#39;struct bno055_get_temperature&#39;</span></div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>        <span class="comment">/* Formata as acelerações como strings */</span></div>
+<div class="line"><span class="lineno">  153</span>        <a class="code hl_function" href="_temp_acele__e___iluini__main_8c.html#a05deeba86f91bb43194d680c208e679b">floatToString</a>(<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#a3c141f5996748caa7bf76fba549718f9">acceleration_x</a>, acceleration_str, 4);</div>
+<div class="line"><span class="lineno">  154</span>        <a class="code hl_function" href="_temp_acele__e___iluini__main_8c.html#a05deeba86f91bb43194d680c208e679b">floatToString</a>(<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#afc1d28cfbce795d6ea954ebe725241f5">temperature</a>, temperature_str, 2);</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>        <span class="comment">/* Constrói a mensagem a ser enviada pela UART */</span></div>
+<div class="line"><span class="lineno">  157</span>        sprintf(message, <span class="stringliteral">&quot;Aceleracao X: %s\r\nTemperatura: %s\r\n&quot;</span>, acceleration_str, temperature_str);</div>
+<div class="line"><span class="lineno">  158</span>        printf(message);</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>        <span class="comment">/* Liga e desliga o LED da placa de expansão */</span></div>
+<div class="line"><span class="lineno">  161</span>        delay_ms(20);</div>
+<div class="line"><span class="lineno">  162</span>        <a class="code hl_function" href="_temp_acele__e___iluini__main_8c.html#a0636752822cc605176ab5581b2ec6ab7">SET_IO1X_LED_OFF</a>();</div>
+<div class="line"><span class="lineno">  163</span>        delay_ms(20);</div>
+<div class="line"><span class="lineno">  164</span>    }</div>
+<div class="line"><span class="lineno">  165</span>}</div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_a05deeba86f91bb43194d680c208e679b"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#a05deeba86f91bb43194d680c208e679b">floatToString</a></div><div class="ttdeci">void floatToString(float num, char *str, int precision)</div><div class="ttdoc">Converte um n�mero float em string com a precis�o informada.</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:85</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_a0636752822cc605176ab5581b2ec6ab7"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#a0636752822cc605176ab5581b2ec6ab7">SET_IO1X_LED_OFF</a></div><div class="ttdeci">void SET_IO1X_LED_OFF(void)</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:76</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_a3c141f5996748caa7bf76fba549718f9"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#a3c141f5996748caa7bf76fba549718f9">acceleration_x</a></div><div class="ttdeci">float acceleration_x</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:125</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_a5068abd51de11b3f9de7a37830fd69ce"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#a5068abd51de11b3f9de7a37830fd69ce">USART_dbg_init</a></div><div class="ttdeci">void USART_dbg_init(void)</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:33</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_a77d74e0444efcc693cb74f6f2807e1c6"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#a77d74e0444efcc693cb74f6f2807e1c6">acceleration_z</a></div><div class="ttdeci">float acceleration_z</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:127</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_aefaca5b7b3408317da5cdc67fdde2194"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#aefaca5b7b3408317da5cdc67fdde2194">Light_sensor_init</a></div><div class="ttdeci">void Light_sensor_init(void)</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:22</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_af4ce4836619cdf277b1b00f34b314096"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#af4ce4836619cdf277b1b00f34b314096">acceleration_y</a></div><div class="ttdeci">float acceleration_y</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:126</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_afacfb0180a2a5342184debc1372fac57"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#afacfb0180a2a5342184debc1372fac57">bno055</a></div><div class="ttdeci">struct bno055_dev bno055</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:9</div></div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_afc1d28cfbce795d6ea954ebe725241f5"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#afc1d28cfbce795d6ea954ebe725241f5">temperature</a></div><div class="ttdeci">float temperature</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:129</div></div>
+<div class="ttc" id="aatmel__start_8c_html_a4ead477dfb261fce0f4bf92e76c74045"><div class="ttname"><a href="atmel__start_8c.html#a4ead477dfb261fce0f4bf92e76c74045">atmel_start_init</a></div><div class="ttdeci">void atmel_start_init(void)</div><div class="ttdef"><b>Definição</b> atmel_start.c:6</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0636752822cc605176ab5581b2ec6ab7" name="a0636752822cc605176ab5581b2ec6ab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0636752822cc605176ab5581b2ec6ab7">&#9670;&#160;</a></span>SET_IO1X_LED_OFF()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SET_IO1X_LED_OFF </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Desliga o LED da placa de expansão IO1X </p>
+<div class="fragment"><div class="line"><span class="lineno">   76</span>                           {</div>
+<div class="line"><span class="lineno">   77</span>    gpio_set_pin_level(<a class="code hl_define" href="atmel__start__pins_8h.html#aeb7a7ba1ab7e0406f1b5ab36d579f585">LED</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   78</span>}</div>
+<div class="ttc" id="aatmel__start__pins_8h_html_aeb7a7ba1ab7e0406f1b5ab36d579f585"><div class="ttname"><a href="atmel__start__pins_8h.html#aeb7a7ba1ab7e0406f1b5ab36d579f585">LED</a></div><div class="ttdeci">#define LED</div><div class="ttdef"><b>Definição</b> atmel_start_pins.h:29</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a44bb1b555c7bcda96539dbcf5bde833d" name="a44bb1b555c7bcda96539dbcf5bde833d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44bb1b555c7bcda96539dbcf5bde833d">&#9670;&#160;</a></span>SET_IO1X_LED_ON()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SET_IO1X_LED_ON </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Liga o LED da placa de expansão IO1X </p>
+<div class="fragment"><div class="line"><span class="lineno">   69</span>                          {</div>
+<div class="line"><span class="lineno">   70</span>    gpio_set_pin_level(<a class="code hl_define" href="atmel__start__pins_8h.html#aeb7a7ba1ab7e0406f1b5ab36d579f585">LED</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   71</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9e05958fda7e92003cddc5cdd9a982e7" name="a9e05958fda7e92003cddc5cdd9a982e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e05958fda7e92003cddc5cdd9a982e7">&#9670;&#160;</a></span>UART_write_byte()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UART_write_byte </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>byte_to_send</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Escreve 1 byte na UART de debug </p>
+<div class="fragment"><div class="line"><span class="lineno">   40</span>                                          {</div>
+<div class="line"><span class="lineno">   41</span>    io_write(<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#a47d3ac35b415bd30142c1662666814b6">USART_debug_io</a>, &amp;byte_to_send, 1);</div>
+<div class="line"><span class="lineno">   42</span>}</div>
+<div class="ttc" id="a_temp_acele__e___iluini__main_8c_html_a47d3ac35b415bd30142c1662666814b6"><div class="ttname"><a href="_temp_acele__e___iluini__main_8c.html#a47d3ac35b415bd30142c1662666814b6">USART_debug_io</a></div><div class="ttdeci">struct io_descriptor * USART_debug_io</div><div class="ttdef"><b>Definição</b> TempAcele_e_Iluini_main.c:8</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5068abd51de11b3f9de7a37830fd69ce" name="a5068abd51de11b3f9de7a37830fd69ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5068abd51de11b3f9de7a37830fd69ce">&#9670;&#160;</a></span>USART_dbg_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USART_dbg_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inicializa a UART usada como debug do programa Pode ser usada para printf </p>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>                         {</div>
+<div class="line"><span class="lineno">   34</span>    usart_sync_get_io_descriptor(&amp;USART_debug, &amp;<a class="code hl_variable" href="_temp_acele__e___iluini__main_8c.html#a47d3ac35b415bd30142c1662666814b6">USART_debug_io</a>);</div>
+<div class="line"><span class="lineno">   35</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variáveis</h2>
+<a id="a3c141f5996748caa7bf76fba549718f9" name="a3c141f5996748caa7bf76fba549718f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c141f5996748caa7bf76fba549718f9">&#9670;&#160;</a></span>acceleration_x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float acceleration_x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4ce4836619cdf277b1b00f34b314096" name="af4ce4836619cdf277b1b00f34b314096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ce4836619cdf277b1b00f34b314096">&#9670;&#160;</a></span>acceleration_y</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float acceleration_y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77d74e0444efcc693cb74f6f2807e1c6" name="a77d74e0444efcc693cb74f6f2807e1c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77d74e0444efcc693cb74f6f2807e1c6">&#9670;&#160;</a></span>acceleration_z</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float acceleration_z</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afacfb0180a2a5342184debc1372fac57" name="afacfb0180a2a5342184debc1372fac57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacfb0180a2a5342184debc1372fac57">&#9670;&#160;</a></span>bno055</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct bno055_dev bno055</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f477dd9dbc6e22939ecdb738987d2df" name="a1f477dd9dbc6e22939ecdb738987d2df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f477dd9dbc6e22939ecdb738987d2df">&#9670;&#160;</a></span>conversion_done</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile bool conversion_done = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc1d28cfbce795d6ea954ebe725241f5" name="afc1d28cfbce795d6ea954ebe725241f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1d28cfbce795d6ea954ebe725241f5">&#9670;&#160;</a></span>temperature</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float temperature</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47d3ac35b415bd30142c1662666814b6" name="a47d3ac35b415bd30142c1662666814b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d3ac35b415bd30142c1662666814b6">&#9670;&#160;</a></span>USART_debug_io</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct io_descriptor* USART_debug_io</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
