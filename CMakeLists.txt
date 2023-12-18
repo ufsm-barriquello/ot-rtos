@@ -176,6 +176,49 @@ if (${PLATFORM_NAME} STREQUAL nrf52)
     add_custom_target(ot_demo_101_hex ALL DEPENDS ot_demo_101.hex)
 endif()
 
+if (${PLATFORM_NAME} STREQUAL samr21)
+    add_executable(ot_demo_101
+        ${SRC_DIR}/apps/cli/main.c
+        ${SRC_DIR}/core/io_redirect.c
+    )
+
+    target_link_libraries(ot_demo_101
+        PUBLIC
+            demo_101
+    )
+
+    target_compile_definitions(ot_demo_101
+        PUBLIC
+            __HEAP_SIZE=8192
+            __STACK_SIZE=8192
+    )
+
+    target_compile_definitions(ot_cli_${PLATFORM_NAME}
+        PUBLIC
+            __HEAP_SIZE=8192
+            __STACK_SIZE=8192
+    )
+
+    #special link script
+    set_target_properties(ot_cli_${PLATFORM_NAME} PROPERTIES LINK_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/openthread/repo/microship/include/samr21x18a.ld)
+    set_target_properties(ot_cli_${PLATFORM_NAME} PROPERTIES LINK_FLAGS "-T ${CMAKE_CURRENT_SOURCE_DIR}/third_party/openthread/repo/microship/include/samr21x18a.ld -lc -lnosys -lm -lstdc++")
+    set_target_properties(ot_demo_101 PROPERTIES LINK_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/openthread/repo/microship/include/samr21x18a.ld)
+    set_target_properties(ot_demo_101 PROPERTIES LINK_FLAGS "-T ${CMAKE_CURRENT_SOURCE_DIR}/third_party/openthread/repo/microship/include/samr21x18a.ld -lc -lnosys -lm -lstdc++")
+
+    #build hex file
+    add_custom_command(OUTPUT ot_cli_${PLATFORM_NAME}.hex
+        COMMAND arm-none-eabi-objcopy -O ihex ot_cli_${PLATFORM_NAME} ot_cli_${PLATFORM_NAME}.hex
+        DEPENDS ot_cli_${PLATFORM_NAME}
+    )
+    add_custom_target(ot_cli_nrf52_hex ALL DEPENDS ot_cli_${PLATFORM_NAME}.hex)
+
+    add_custom_command(OUTPUT ot_demo_101.hex
+        COMMAND arm-none-eabi-objcopy -O ihex ot_demo_101 ot_demo_101.hex
+        DEPENDS ot_demo_101
+    )
+    add_custom_target(ot_demo_101_hex ALL DEPENDS ot_demo_101.hex)
+endif()
+
 set(PORT_DIRS 
     ./third_party/freertos-addons/port
     ./third_party/lwip/port

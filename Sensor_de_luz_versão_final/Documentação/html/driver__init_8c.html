@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DocumentaÃ§Ã£o_Sensor_de_Luz: ReferÃªncia do Arquivo D:/UsuÃ¡rio/Dell/Desktop/ot-rtos/Sensor_de_luz_versÃ£o_final/IO_samr21/driver_init.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">DocumentaÃ§Ã£o_Sensor_de_Luz
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4dc6d53be72759a689b64c47773126cb.html">IO_samr21</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">DefiniÃ§Ãµes e Macros</a> &#124;
+<a href="#func-members">FunÃ§Ãµes</a> &#124;
+<a href="#var-members">VariÃ¡veis</a>  </div>
+  <div class="headertitle"><div class="title">ReferÃªncia do Arquivo driver_init.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="driver__init_8h_source.html">driver_init.h</a>&quot;</code><br />
+<code>#include &lt;peripheral_clk_config.h&gt;</code><br />
+<code>#include &lt;utils.h&gt;</code><br />
+<code>#include &lt;hal_init.h&gt;</code><br />
+<code>#include &lt;hpl_gclk_base.h&gt;</code><br />
+<code>#include &lt;hpl_pm_base.h&gt;</code><br />
+<code>#include &lt;hpl_adc_base.h&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+DefiniÃ§Ãµes e Macros</h2></td></tr>
+<tr class="memitem:a78707a964679d107ee59c745cce3bef3" id="r_a78707a964679d107ee59c745cce3bef3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a78707a964679d107ee59c745cce3bef3">IO_SENSOR_ADC_CH_AMOUNT</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a78707a964679d107ee59c745cce3bef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30dc8b9494d05744e107571e9d3abcf6" id="r_a30dc8b9494d05744e107571e9d3abcf6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a30dc8b9494d05744e107571e9d3abcf6">IO_SENSOR_ADC_BUFFER_SIZE</a>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:a30dc8b9494d05744e107571e9d3abcf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbab28030629fec51600fb97762d292f" id="r_abbab28030629fec51600fb97762d292f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#abbab28030629fec51600fb97762d292f">IO_SENSOR_ADC_CH_MAX</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:abbab28030629fec51600fb97762d292f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+FunÃ§Ãµes</h2></td></tr>
+<tr class="memitem:ad798d332f8ba51eea4978d155c1dbddd" id="r_ad798d332f8ba51eea4978d155c1dbddd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#ad798d332f8ba51eea4978d155c1dbddd">IO_SENSOR_ADC_INIT</a> (void)</td></tr>
+<tr class="memdesc:ad798d332f8ba51eea4978d155c1dbddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o controlador ADC e configura o pino PA06 para uso com o ADC.  <br /></td></tr>
+<tr class="separator:ad798d332f8ba51eea4978d155c1dbddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc0e5af0909dbc7120eac71f14a0836" id="r_a9bc0e5af0909dbc7120eac71f14a0836"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a9bc0e5af0909dbc7120eac71f14a0836">TARGETIO_PORT_INIT</a> (void)</td></tr>
+<tr class="memdesc:a9bc0e5af0909dbc7120eac71f14a0836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o controlador USART (configura os pinos PA04 e PA05 para uso com USART).  <br /></td></tr>
+<tr class="separator:a9bc0e5af0909dbc7120eac71f14a0836"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a737590c0f7c00d72c8ae36b7cdd83" id="r_aa4a737590c0f7c00d72c8ae36b7cdd83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#aa4a737590c0f7c00d72c8ae36b7cdd83">TARGETIO_CLOCK_INIT</a> (void)</td></tr>
+<tr class="memdesc:aa4a737590c0f7c00d72c8ae36b7cdd83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o clock para o módulo SERCOM0. Geralmente é usado para comunicação serial no microcontrolador.  <br /></td></tr>
+<tr class="separator:aa4a737590c0f7c00d72c8ae36b7cdd83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8adc596279df52a77a826045db45aefa" id="r_a8adc596279df52a77a826045db45aefa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a8adc596279df52a77a826045db45aefa">TARGETIO_INIT</a> (void)</td></tr>
+<tr class="memdesc:a8adc596279df52a77a826045db45aefa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o módulo de comunicação USART (Universal Synchronous and Asynchronous Receiver-Transmitter) usando o SERCOM0.  <br /></td></tr>
+<tr class="separator:a8adc596279df52a77a826045db45aefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4681bbc20ede3df4b7c298e0e0eb9ac0" id="r_a4681bbc20ede3df4b7c298e0e0eb9ac0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a4681bbc20ede3df4b7c298e0e0eb9ac0">I2C_INSTANCE_PORT_INIT</a> (void)</td></tr>
+<tr class="memdesc:a4681bbc20ede3df4b7c298e0e0eb9ac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o controlador I2C (configura os pinos PA16 e PA17 para uso com I2C).  <br /></td></tr>
+<tr class="separator:a4681bbc20ede3df4b7c298e0e0eb9ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee8cf7762d28ac3065039881cdb53a9" id="r_adee8cf7762d28ac3065039881cdb53a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#adee8cf7762d28ac3065039881cdb53a9">I2C_INSTANCE_CLOCK_INIT</a> (void)</td></tr>
+<tr class="memdesc:adee8cf7762d28ac3065039881cdb53a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o clock para o módulo SERCOM1.  <br /></td></tr>
+<tr class="separator:adee8cf7762d28ac3065039881cdb53a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5761c938dae7ac3849592d616385a242" id="r_a5761c938dae7ac3849592d616385a242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a5761c938dae7ac3849592d616385a242">I2C_INSTANCE_INIT</a> (void)</td></tr>
+<tr class="memdesc:a5761c938dae7ac3849592d616385a242"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o controlador de comunicação I2C usando o módulo SERCOM1.  <br /></td></tr>
+<tr class="separator:a5761c938dae7ac3849592d616385a242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaadc9ffb916a3993ed7b4f7b69a829ea" id="r_aaadc9ffb916a3993ed7b4f7b69a829ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#aaadc9ffb916a3993ed7b4f7b69a829ea">delay_driver_init</a> (void)</td></tr>
+<tr class="memdesc:aaadc9ffb916a3993ed7b4f7b69a829ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o driver de atraso usando SysTick.  <br /></td></tr>
+<tr class="separator:aaadc9ffb916a3993ed7b4f7b69a829ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f5e0d6db0fb41a437cc9096b32e9b5" id="r_a43f5e0d6db0fb41a437cc9096b32e9b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a43f5e0d6db0fb41a437cc9096b32e9b5">system_init</a> (void)</td></tr>
+<tr class="memdesc:a43f5e0d6db0fb41a437cc9096b32e9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o sistema, configurando o microcontrolador e chamando as funções de inicialização dos controladores.  <br /></td></tr>
+<tr class="separator:a43f5e0d6db0fb41a437cc9096b32e9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+VariÃ¡veis</h2></td></tr>
+<tr class="memitem:a2ff06f2ead4d3205334850f3fd492449" id="r_a2ff06f2ead4d3205334850f3fd492449"><td class="memItemLeft" align="right" valign="top">struct adc_async_descriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a2ff06f2ead4d3205334850f3fd492449">IO_SENSOR_ADC</a></td></tr>
+<tr class="memdesc:a2ff06f2ead4d3205334850f3fd492449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controlador ADC assíncrono para o sensor de luz.  <br /></td></tr>
+<tr class="separator:a2ff06f2ead4d3205334850f3fd492449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31bb280c6af9df863ccce351e0895d83" id="r_a31bb280c6af9df863ccce351e0895d83"><td class="memItemLeft" align="right" valign="top">struct adc_async_channel_descriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a31bb280c6af9df863ccce351e0895d83">IO_SENSOR_ADC_ch</a> [<a class="el" href="driver__init_8c.html#a78707a964679d107ee59c745cce3bef3">IO_SENSOR_ADC_CH_AMOUNT</a>]</td></tr>
+<tr class="separator:a31bb280c6af9df863ccce351e0895d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30c303516e2f0b4a421f4af89868091" id="r_ac30c303516e2f0b4a421f4af89868091"><td class="memItemLeft" align="right" valign="top">struct usart_sync_descriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#ac30c303516e2f0b4a421f4af89868091">TARGETIO</a></td></tr>
+<tr class="memdesc:ac30c303516e2f0b4a421f4af89868091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descritor de comunicação USART síncrona.  <br /></td></tr>
+<tr class="separator:ac30c303516e2f0b4a421f4af89868091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa7e03d01728ab29ac34a287b09e64f" id="r_a4fa7e03d01728ab29ac34a287b09e64f"><td class="memItemLeft" align="right" valign="top">struct i2c_m_sync_desc&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="driver__init_8c.html#a4fa7e03d01728ab29ac34a287b09e64f">I2C_INSTANCE</a></td></tr>
+<tr class="memdesc:a4fa7e03d01728ab29ac34a287b09e64f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descritor de comunicação I2C mestre síncrona.  <br /></td></tr>
+<tr class="separator:a4fa7e03d01728ab29ac34a287b09e64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">DefiniÃ§Ãµes e macros</h2>
+<a id="a30dc8b9494d05744e107571e9d3abcf6" name="a30dc8b9494d05744e107571e9d3abcf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30dc8b9494d05744e107571e9d3abcf6">&#9670;&#160;</a></span>IO_SENSOR_ADC_BUFFER_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IO_SENSOR_ADC_BUFFER_SIZE&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78707a964679d107ee59c745cce3bef3" name="a78707a964679d107ee59c745cce3bef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78707a964679d107ee59c745cce3bef3">&#9670;&#160;</a></span>IO_SENSOR_ADC_CH_AMOUNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IO_SENSOR_ADC_CH_AMOUNT&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbab28030629fec51600fb97762d292f" name="abbab28030629fec51600fb97762d292f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbab28030629fec51600fb97762d292f">&#9670;&#160;</a></span>IO_SENSOR_ADC_CH_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IO_SENSOR_ADC_CH_MAX&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">FunÃ§Ãµes</h2>
+<a id="aaadc9ffb916a3993ed7b4f7b69a829ea" name="aaadc9ffb916a3993ed7b4f7b69a829ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaadc9ffb916a3993ed7b4f7b69a829ea">&#9670;&#160;</a></span>delay_driver_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delay_driver_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o driver de atraso usando SysTick. </p>
+<div class="fragment"><div class="line"><span class="lineno">   99</span>                             {</div>
+<div class="line"><span class="lineno">  100</span>    delay_init(SysTick);</div>
+<div class="line"><span class="lineno">  101</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adee8cf7762d28ac3065039881cdb53a9" name="adee8cf7762d28ac3065039881cdb53a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adee8cf7762d28ac3065039881cdb53a9">&#9670;&#160;</a></span>I2C_INSTANCE_CLOCK_INIT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void I2C_INSTANCE_CLOCK_INIT </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o clock para o módulo SERCOM1. </p>
+<div class="fragment"><div class="line"><span class="lineno">   81</span>                                   {</div>
+<div class="line"><span class="lineno">   82</span>    _pm_enable_bus_clock(PM_BUS_APBC, SERCOM1);</div>
+<div class="line"><span class="lineno">   83</span>    _gclk_enable_channel(SERCOM1_GCLK_ID_CORE, CONF_GCLK_SERCOM1_CORE_SRC);</div>
+<div class="line"><span class="lineno">   84</span>    _gclk_enable_channel(SERCOM1_GCLK_ID_SLOW, CONF_GCLK_SERCOM1_SLOW_SRC);</div>
+<div class="line"><span class="lineno">   85</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5761c938dae7ac3849592d616385a242" name="a5761c938dae7ac3849592d616385a242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5761c938dae7ac3849592d616385a242">&#9670;&#160;</a></span>I2C_INSTANCE_INIT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void I2C_INSTANCE_INIT </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o controlador de comunicação I2C usando o módulo SERCOM1. </p>
+<p>Inicializa o controlador de comunicação I2C. </p>
+<div class="fragment"><div class="line"><span class="lineno">   90</span>                             {</div>
+<div class="line"><span class="lineno">   91</span>    <a class="code hl_function" href="driver__init_8c.html#adee8cf7762d28ac3065039881cdb53a9">I2C_INSTANCE_CLOCK_INIT</a>();</div>
+<div class="line"><span class="lineno">   92</span>    i2c_m_sync_init(&amp;<a class="code hl_variable" href="driver__init_8c.html#a4fa7e03d01728ab29ac34a287b09e64f">I2C_INSTANCE</a>, SERCOM1);</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_function" href="driver__init_8c.html#a4681bbc20ede3df4b7c298e0e0eb9ac0">I2C_INSTANCE_PORT_INIT</a>();</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+<div class="ttc" id="adriver__init_8c_html_a4681bbc20ede3df4b7c298e0e0eb9ac0"><div class="ttname"><a href="driver__init_8c.html#a4681bbc20ede3df4b7c298e0e0eb9ac0">I2C_INSTANCE_PORT_INIT</a></div><div class="ttdeci">void I2C_INSTANCE_PORT_INIT(void)</div><div class="ttdoc">Inicializa o controlador I2C (configura os pinos PA16 e PA17 para uso com I2C).</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:68</div></div>
+<div class="ttc" id="adriver__init_8c_html_a4fa7e03d01728ab29ac34a287b09e64f"><div class="ttname"><a href="driver__init_8c.html#a4fa7e03d01728ab29ac34a287b09e64f">I2C_INSTANCE</a></div><div class="ttdeci">struct i2c_m_sync_desc I2C_INSTANCE</div><div class="ttdoc">Descritor de comunicação I2C mestre síncrona.</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:22</div></div>
+<div class="ttc" id="adriver__init_8c_html_adee8cf7762d28ac3065039881cdb53a9"><div class="ttname"><a href="driver__init_8c.html#adee8cf7762d28ac3065039881cdb53a9">I2C_INSTANCE_CLOCK_INIT</a></div><div class="ttdeci">void I2C_INSTANCE_CLOCK_INIT(void)</div><div class="ttdoc">Inicializa o clock para o módulo SERCOM1.</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:81</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4681bbc20ede3df4b7c298e0e0eb9ac0" name="a4681bbc20ede3df4b7c298e0e0eb9ac0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4681bbc20ede3df4b7c298e0e0eb9ac0">&#9670;&#160;</a></span>I2C_INSTANCE_PORT_INIT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void I2C_INSTANCE_PORT_INIT </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o controlador I2C (configura os pinos PA16 e PA17 para uso com I2C). </p>
+<p>Inicializa os pinos necessários para a comunicação I2C. </p>
+<div class="fragment"><div class="line"><span class="lineno">   68</span>                                  {</div>
+<div class="line"><span class="lineno">   69</span>    gpio_set_pin_pull_mode(<a class="code hl_define" href="atmel__start__pins_8h.html#aba034f83e4a90db9ecb3c5f5047d3ee6">PA16</a>, GPIO_PULL_OFF);</div>
+<div class="line"><span class="lineno">   70</span>    gpio_set_pin_function(<a class="code hl_define" href="atmel__start__pins_8h.html#aba034f83e4a90db9ecb3c5f5047d3ee6">PA16</a>, PINMUX_PA16C_SERCOM1_PAD0);</div>
+<div class="line"><span class="lineno">   71</span>    gpio_set_pin_pull_mode(<a class="code hl_define" href="atmel__start__pins_8h.html#a90e949b77bfd597d8ec87c4a59e62546">PA17</a>, GPIO_PULL_OFF);</div>
+<div class="line"><span class="lineno">   72</span>    gpio_set_pin_function(<a class="code hl_define" href="atmel__start__pins_8h.html#a90e949b77bfd597d8ec87c4a59e62546">PA17</a>, PINMUX_PA17C_SERCOM1_PAD1);</div>
+<div class="line"><span class="lineno">   73</span>}</div>
+<div class="ttc" id="aatmel__start__pins_8h_html_a90e949b77bfd597d8ec87c4a59e62546"><div class="ttname"><a href="atmel__start__pins_8h.html#a90e949b77bfd597d8ec87c4a59e62546">PA17</a></div><div class="ttdeci">#define PA17</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> atmel_start_pins.h:28</div></div>
+<div class="ttc" id="aatmel__start__pins_8h_html_aba034f83e4a90db9ecb3c5f5047d3ee6"><div class="ttname"><a href="atmel__start__pins_8h.html#aba034f83e4a90db9ecb3c5f5047d3ee6">PA16</a></div><div class="ttdeci">#define PA16</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> atmel_start_pins.h:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad798d332f8ba51eea4978d155c1dbddd" name="ad798d332f8ba51eea4978d155c1dbddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad798d332f8ba51eea4978d155c1dbddd">&#9670;&#160;</a></span>IO_SENSOR_ADC_INIT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO_SENSOR_ADC_INIT </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o controlador ADC e configura o pino PA06 para uso com o ADC. </p>
+<p>Inicializa o controlador ADC para o sensor de luz. </p>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>                              {</div>
+<div class="line"><span class="lineno">   28</span>    _pm_enable_bus_clock(PM_BUS_APBC, ADC);</div>
+<div class="line"><span class="lineno">   29</span>    _gclk_enable_channel(ADC_GCLK_ID, CONF_GCLK_ADC_SRC);</div>
+<div class="line"><span class="lineno">   30</span>    adc_async_init(&amp;<a class="code hl_variable" href="driver__init_8c.html#a2ff06f2ead4d3205334850f3fd492449">IO_SENSOR_ADC</a>, ADC, IO_SENSOR_ADC_map, <a class="code hl_define" href="driver__init_8c.html#abbab28030629fec51600fb97762d292f">IO_SENSOR_ADC_CH_MAX</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_define" href="driver__init_8c.html#a78707a964679d107ee59c745cce3bef3">IO_SENSOR_ADC_CH_AMOUNT</a>, &amp;<a class="code hl_variable" href="driver__init_8c.html#a31bb280c6af9df863ccce351e0895d83">IO_SENSOR_ADC_ch</a>[0], (<span class="keywordtype">void</span> *)NULL);</div>
+<div class="line"><span class="lineno">   32</span>    adc_async_register_channel_buffer(&amp;<a class="code hl_variable" href="driver__init_8c.html#a2ff06f2ead4d3205334850f3fd492449">IO_SENSOR_ADC</a>, 0, IO_SENSOR_ADC_buffer,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_define" href="driver__init_8c.html#a30dc8b9494d05744e107571e9d3abcf6">IO_SENSOR_ADC_BUFFER_SIZE</a>);</div>
+<div class="line"><span class="lineno">   34</span>    gpio_set_pin_direction(<a class="code hl_define" href="atmel__start__pins_8h.html#a79ed80b82eebe2206e612579176e991b">PA06</a>, GPIO_DIRECTION_OFF);</div>
+<div class="line"><span class="lineno">   35</span>    gpio_set_pin_function(<a class="code hl_define" href="atmel__start__pins_8h.html#a79ed80b82eebe2206e612579176e991b">PA06</a>, PINMUX_PA06B_ADC_AIN6);</div>
+<div class="line"><span class="lineno">   36</span>}</div>
+<div class="ttc" id="aatmel__start__pins_8h_html_a79ed80b82eebe2206e612579176e991b"><div class="ttname"><a href="atmel__start__pins_8h.html#a79ed80b82eebe2206e612579176e991b">PA06</a></div><div class="ttdeci">#define PA06</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> atmel_start_pins.h:26</div></div>
+<div class="ttc" id="adriver__init_8c_html_a2ff06f2ead4d3205334850f3fd492449"><div class="ttname"><a href="driver__init_8c.html#a2ff06f2ead4d3205334850f3fd492449">IO_SENSOR_ADC</a></div><div class="ttdeci">struct adc_async_descriptor IO_SENSOR_ADC</div><div class="ttdoc">Controlador ADC assíncrono para o sensor de luz.</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:17</div></div>
+<div class="ttc" id="adriver__init_8c_html_a30dc8b9494d05744e107571e9d3abcf6"><div class="ttname"><a href="driver__init_8c.html#a30dc8b9494d05744e107571e9d3abcf6">IO_SENSOR_ADC_BUFFER_SIZE</a></div><div class="ttdeci">#define IO_SENSOR_ADC_BUFFER_SIZE</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:13</div></div>
+<div class="ttc" id="adriver__init_8c_html_a31bb280c6af9df863ccce351e0895d83"><div class="ttname"><a href="driver__init_8c.html#a31bb280c6af9df863ccce351e0895d83">IO_SENSOR_ADC_ch</a></div><div class="ttdeci">struct adc_async_channel_descriptor IO_SENSOR_ADC_ch[IO_SENSOR_ADC_CH_AMOUNT]</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:18</div></div>
+<div class="ttc" id="adriver__init_8c_html_a78707a964679d107ee59c745cce3bef3"><div class="ttname"><a href="driver__init_8c.html#a78707a964679d107ee59c745cce3bef3">IO_SENSOR_ADC_CH_AMOUNT</a></div><div class="ttdeci">#define IO_SENSOR_ADC_CH_AMOUNT</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:12</div></div>
+<div class="ttc" id="adriver__init_8c_html_abbab28030629fec51600fb97762d292f"><div class="ttname"><a href="driver__init_8c.html#abbab28030629fec51600fb97762d292f">IO_SENSOR_ADC_CH_MAX</a></div><div class="ttdeci">#define IO_SENSOR_ADC_CH_MAX</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:14</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a43f5e0d6db0fb41a437cc9096b32e9b5" name="a43f5e0d6db0fb41a437cc9096b32e9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43f5e0d6db0fb41a437cc9096b32e9b5">&#9670;&#160;</a></span>system_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void system_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o sistema, configurando o microcontrolador e chamando as funções de inicialização dos controladores. </p>
+<p>Perform system initialization, initialize pins and clocks for peripherals. </p>
+<div class="fragment"><div class="line"><span class="lineno">  106</span>                       {</div>
+<div class="line"><span class="lineno">  107</span>    init_mcu(); <span class="comment">// Inicializa o microcontrolador</span></div>
+<div class="line"><span class="lineno">  108</span>    <span class="comment">//Configura o pino do LED e o coloca em nível baixo.</span></div>
+<div class="line"><span class="lineno">  109</span>    gpio_set_pin_level(<a class="code hl_define" href="atmel__start__pins_8h.html#aeb7a7ba1ab7e0406f1b5ab36d579f585">LED</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  110</span>    gpio_set_pin_direction(<a class="code hl_define" href="atmel__start__pins_8h.html#aeb7a7ba1ab7e0406f1b5ab36d579f585">LED</a>, GPIO_DIRECTION_OUT);</div>
+<div class="line"><span class="lineno">  111</span>    gpio_set_pin_function(<a class="code hl_define" href="atmel__start__pins_8h.html#aeb7a7ba1ab7e0406f1b5ab36d579f585">LED</a>, GPIO_PIN_FUNCTION_OFF);</div>
+<div class="line"><span class="lineno">  112</span>    <span class="comment">//Chama as funções de inicialização dos controladores</span></div>
+<div class="line"><span class="lineno">  113</span>    <a class="code hl_function" href="driver__init_8c.html#ad798d332f8ba51eea4978d155c1dbddd">IO_SENSOR_ADC_INIT</a>();</div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_function" href="driver__init_8c.html#a8adc596279df52a77a826045db45aefa">TARGETIO_INIT</a>();</div>
+<div class="line"><span class="lineno">  115</span>    <a class="code hl_function" href="driver__init_8c.html#a5761c938dae7ac3849592d616385a242">I2C_INSTANCE_INIT</a>();</div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_function" href="driver__init_8c.html#aaadc9ffb916a3993ed7b4f7b69a829ea">delay_driver_init</a>();</div>
+<div class="line"><span class="lineno">  117</span>}</div>
+<div class="ttc" id="aatmel__start__pins_8h_html_aeb7a7ba1ab7e0406f1b5ab36d579f585"><div class="ttname"><a href="atmel__start__pins_8h.html#aeb7a7ba1ab7e0406f1b5ab36d579f585">LED</a></div><div class="ttdeci">#define LED</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> atmel_start_pins.h:29</div></div>
+<div class="ttc" id="adriver__init_8c_html_a5761c938dae7ac3849592d616385a242"><div class="ttname"><a href="driver__init_8c.html#a5761c938dae7ac3849592d616385a242">I2C_INSTANCE_INIT</a></div><div class="ttdeci">void I2C_INSTANCE_INIT(void)</div><div class="ttdoc">Inicializa o controlador de comunicação I2C usando o módulo SERCOM1.</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:90</div></div>
+<div class="ttc" id="adriver__init_8c_html_a8adc596279df52a77a826045db45aefa"><div class="ttname"><a href="driver__init_8c.html#a8adc596279df52a77a826045db45aefa">TARGETIO_INIT</a></div><div class="ttdeci">void TARGETIO_INIT(void)</div><div class="ttdoc">Inicializa o módulo de comunicação USART (Universal Synchronous and Asynchronous Receiver-Transmitter) usa...</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:59</div></div>
+<div class="ttc" id="adriver__init_8c_html_aaadc9ffb916a3993ed7b4f7b69a829ea"><div class="ttname"><a href="driver__init_8c.html#aaadc9ffb916a3993ed7b4f7b69a829ea">delay_driver_init</a></div><div class="ttdeci">void delay_driver_init(void)</div><div class="ttdoc">Inicializa o driver de atraso usando SysTick.</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:99</div></div>
+<div class="ttc" id="adriver__init_8c_html_ad798d332f8ba51eea4978d155c1dbddd"><div class="ttname"><a href="driver__init_8c.html#ad798d332f8ba51eea4978d155c1dbddd">IO_SENSOR_ADC_INIT</a></div><div class="ttdeci">void IO_SENSOR_ADC_INIT(void)</div><div class="ttdoc">Inicializa o controlador ADC e configura o pino PA06 para uso com o ADC.</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa4a737590c0f7c00d72c8ae36b7cdd83" name="aa4a737590c0f7c00d72c8ae36b7cdd83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a737590c0f7c00d72c8ae36b7cdd83">&#9670;&#160;</a></span>TARGETIO_CLOCK_INIT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TARGETIO_CLOCK_INIT </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o clock para o módulo SERCOM0. Geralmente é usado para comunicação serial no microcontrolador. </p>
+<p>Inicializa o clock para o módulo SERCOM0 usado para USART. </p>
+<div class="fragment"><div class="line"><span class="lineno">   50</span>                               {</div>
+<div class="line"><span class="lineno">   51</span>    _pm_enable_bus_clock(PM_BUS_APBC, SERCOM0);</div>
+<div class="line"><span class="lineno">   52</span>    _gclk_enable_channel(SERCOM0_GCLK_ID_CORE, CONF_GCLK_SERCOM0_CORE_SRC);</div>
+<div class="line"><span class="lineno">   53</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8adc596279df52a77a826045db45aefa" name="a8adc596279df52a77a826045db45aefa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8adc596279df52a77a826045db45aefa">&#9670;&#160;</a></span>TARGETIO_INIT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TARGETIO_INIT </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o módulo de comunicação USART (Universal Synchronous and Asynchronous Receiver-Transmitter) usando o SERCOM0. </p>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>                         {</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_function" href="driver__init_8c.html#aa4a737590c0f7c00d72c8ae36b7cdd83">TARGETIO_CLOCK_INIT</a>();</div>
+<div class="line"><span class="lineno">   61</span>    usart_sync_init(&amp;<a class="code hl_variable" href="driver__init_8c.html#ac30c303516e2f0b4a421f4af89868091">TARGETIO</a>, SERCOM0, (<span class="keywordtype">void</span> *)NULL);</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_function" href="driver__init_8c.html#a9bc0e5af0909dbc7120eac71f14a0836">TARGETIO_PORT_INIT</a>();</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+<div class="ttc" id="adriver__init_8c_html_a9bc0e5af0909dbc7120eac71f14a0836"><div class="ttname"><a href="driver__init_8c.html#a9bc0e5af0909dbc7120eac71f14a0836">TARGETIO_PORT_INIT</a></div><div class="ttdeci">void TARGETIO_PORT_INIT(void)</div><div class="ttdoc">Inicializa o controlador USART (configura os pinos PA04 e PA05 para uso com USART).</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:41</div></div>
+<div class="ttc" id="adriver__init_8c_html_aa4a737590c0f7c00d72c8ae36b7cdd83"><div class="ttname"><a href="driver__init_8c.html#aa4a737590c0f7c00d72c8ae36b7cdd83">TARGETIO_CLOCK_INIT</a></div><div class="ttdeci">void TARGETIO_CLOCK_INIT(void)</div><div class="ttdoc">Inicializa o clock para o módulo SERCOM0. Geralmente é usado para comunicação serial no microcontrolador.</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:50</div></div>
+<div class="ttc" id="adriver__init_8c_html_ac30c303516e2f0b4a421f4af89868091"><div class="ttname"><a href="driver__init_8c.html#ac30c303516e2f0b4a421f4af89868091">TARGETIO</a></div><div class="ttdeci">struct usart_sync_descriptor TARGETIO</div><div class="ttdoc">Descritor de comunicação USART síncrona.</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> driver_init.c:21</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9bc0e5af0909dbc7120eac71f14a0836" name="a9bc0e5af0909dbc7120eac71f14a0836"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc0e5af0909dbc7120eac71f14a0836">&#9670;&#160;</a></span>TARGETIO_PORT_INIT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TARGETIO_PORT_INIT </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa o controlador USART (configura os pinos PA04 e PA05 para uso com USART). </p>
+<p>Inicializa os pinos necessários para a comunicação USART. </p>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>                              {</div>
+<div class="line"><span class="lineno">   42</span>    gpio_set_pin_function(<a class="code hl_define" href="atmel__start__pins_8h.html#a3ec0d2e84a765584a587d765302cefd4">PA04</a>, PINMUX_PA04D_SERCOM0_PAD0);</div>
+<div class="line"><span class="lineno">   43</span>    gpio_set_pin_function(<a class="code hl_define" href="atmel__start__pins_8h.html#a29b9ce237e8cb55e25428e5cdb2454b7">PA05</a>, PINMUX_PA05D_SERCOM0_PAD1);</div>
+<div class="line"><span class="lineno">   44</span>}</div>
+<div class="ttc" id="aatmel__start__pins_8h_html_a29b9ce237e8cb55e25428e5cdb2454b7"><div class="ttname"><a href="atmel__start__pins_8h.html#a29b9ce237e8cb55e25428e5cdb2454b7">PA05</a></div><div class="ttdeci">#define PA05</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> atmel_start_pins.h:25</div></div>
+<div class="ttc" id="aatmel__start__pins_8h_html_a3ec0d2e84a765584a587d765302cefd4"><div class="ttname"><a href="atmel__start__pins_8h.html#a3ec0d2e84a765584a587d765302cefd4">PA04</a></div><div class="ttdeci">#define PA04</div><div class="ttdef"><b>DefiniÃ§Ã£o</b> atmel_start_pins.h:24</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">VariÃ¡veis</h2>
+<a id="a4fa7e03d01728ab29ac34a287b09e64f" name="a4fa7e03d01728ab29ac34a287b09e64f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa7e03d01728ab29ac34a287b09e64f">&#9670;&#160;</a></span>I2C_INSTANCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct i2c_m_sync_desc I2C_INSTANCE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Descritor de comunicação I2C mestre síncrona. </p>
+
+</div>
+</div>
+<a id="a2ff06f2ead4d3205334850f3fd492449" name="a2ff06f2ead4d3205334850f3fd492449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ff06f2ead4d3205334850f3fd492449">&#9670;&#160;</a></span>IO_SENSOR_ADC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct adc_async_descriptor IO_SENSOR_ADC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Controlador ADC assíncrono para o sensor de luz. </p>
+
+</div>
+</div>
+<a id="a31bb280c6af9df863ccce351e0895d83" name="a31bb280c6af9df863ccce351e0895d83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31bb280c6af9df863ccce351e0895d83">&#9670;&#160;</a></span>IO_SENSOR_ADC_ch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct adc_async_channel_descriptor IO_SENSOR_ADC_ch[<a class="el" href="driver__init_8c.html#a78707a964679d107ee59c745cce3bef3">IO_SENSOR_ADC_CH_AMOUNT</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac30c303516e2f0b4a421f4af89868091" name="ac30c303516e2f0b4a421f4af89868091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30c303516e2f0b4a421f4af89868091">&#9670;&#160;</a></span>TARGETIO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct usart_sync_descriptor TARGETIO</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Descritor de comunicação USART síncrona. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

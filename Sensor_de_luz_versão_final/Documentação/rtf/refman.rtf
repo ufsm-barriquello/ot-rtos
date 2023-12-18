@@ -1,0 +1,4142 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment Documenta\'E7\'E3o_Sensor_de_Luz }Documenta\'E7\'E3o_Sensor_de_Luz}
+{\comment Gerado por doxygen 1.9.8.}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Documenta\'E7\'E3o_Sensor_de_Luz}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Vers\'E3o \par\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Sum\'E1rio\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\par \pard\plain 
+\par \pard\plain 
+\pard\plain \s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+License\par \pard\plain 
+{\tc\tcl1 \v License}
+{\xe \v License}
+{\bkmkstart AAAAAAAAEU}
+{\bkmkend AAAAAAAAEU}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Subject to your compliance with these terms, you may use Microchip software and any derivatives exclusively with Microchip products. It is your responsibility to comply with third party license terms applicable to your use of third party software (including open source software) that may accompany Microchip software.\par
+THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.\par
+\\asf_license_stop \par
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Componentes\par \pard\plain 
+{\tc \v \'CDndice dos Componentes}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Classes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Aqui est\'E3o as classes, estruturas, uni\'F5es e interfaces e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b at30tse75x} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75x temperature sensor })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b temperature_sensor} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Abstract temperature sensor })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b temperature_sensor_interface} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interface of abstract temperature sensor })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Arquivos\par \pard\plain 
+{\tc \v \'CDndice dos Arquivos}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Arquivos\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Esta \'E9 a lista de todos os arquivos e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b at30tse75x.c} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75X driver })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b at30tse75x.h} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75X temperature declaration })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b at30tse75x_config.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b atmel_start.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b atmel_start.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b atmel_start_pins.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b driver_init.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b driver_init.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b IO1_drivers.c} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Fun\'E7\'F5es relacionadas ao sensor de luz e suas opera\'E7\'F5es })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b IO1_drivers.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b main.c} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+C\'F3digo de teste dos sensores da placa IO1X Plained })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b stdio_start.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b stdio_start.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b TempAcele_e_Iluini_main.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b temperature_sensor.c} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Temperature Sensor implementation })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b temperature_sensor.h} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Temperature Sensor declaration })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAER \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Classes{\tc \v Classes}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Estrutura at30tse75x\par \pard\plain 
+{\tc\tcl2 \v at30tse75x}
+{\xe \v at30tse75x}
+{\bkmkstart AAAAAAAAEV}
+{\bkmkend AAAAAAAAEV}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75x temperature sensor. }}\par
+{
+{\f2 #include <at30tse75x.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b temperature_sensor} {\b parent}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t {\b resolution}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75x temperature sensor. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v parent\:at30tse75x}
+{\xe \v at30tse75x\:parent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct {\b temperature_sensor} at30tse75x::parent}}
+\par
+{\bkmkstart AAAAAAAAEW}
+{\bkmkend AAAAAAAAEW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The parent abstract temperature sensor \par
+}}
+{\xe \v resolution\:at30tse75x}
+{\xe \v at30tse75x\:resolution}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t at30tse75x::resolution}}
+\par
+{\bkmkstart AAAAAAAAEX}
+{\bkmkend AAAAAAAAEX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Resolution used by internal temperature converter \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa estrutura foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b at30tse75x.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Estrutura temperature_sensor\par \pard\plain 
+{\tc\tcl2 \v temperature_sensor}
+{\xe \v temperature_sensor}
+{\bkmkstart AAAAAAAAEY}
+{\bkmkend AAAAAAAAEY}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Abstract temperature sensor. }}\par
+{
+{\f2 #include <temperature_sensor.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void * {\b io}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const struct {\b temperature_sensor_interface} * {\b interface}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Abstract temperature sensor. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v interface\:temperature_sensor}
+{\xe \v temperature_sensor\:interface}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const struct {\b temperature_sensor_interface}* temperature_sensor::interface}}
+\par
+{\bkmkstart AAAAAAAAEZ}
+{\bkmkend AAAAAAAAEZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The interface of abstract temperature sensor \par
+}}
+{\xe \v io\:temperature_sensor}
+{\xe \v temperature_sensor\:io}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void* temperature_sensor::io}}
+\par
+{\bkmkstart AAAAAAAAFA}
+{\bkmkend AAAAAAAAFA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The pointer to interface used to communicate with temperature sensor \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa estrutura foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b temperature_sensor.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Estrutura temperature_sensor_interface\par \pard\plain 
+{\tc\tcl2 \v temperature_sensor_interface}
+{\xe \v temperature_sensor_interface}
+{\bkmkstart AAAAAAAAFB}
+{\bkmkend AAAAAAAAFB}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interface of abstract temperature sensor. }}\par
+{
+{\f2 #include <temperature_sensor.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float(* {\b read} )(const struct {\b temperature_sensor} *const me)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interface of abstract temperature sensor. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v read\:temperature_sensor_interface}
+{\xe \v temperature_sensor_interface\:read}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float(* temperature_sensor_interface::read) (const struct {\b temperature_sensor} *const me)}}
+\par
+{\bkmkstart AAAAAAAAFC}
+{\bkmkend AAAAAAAAFC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa estrutura foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/{\b temperature_sensor.h}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Arquivos{\tc \v Arquivos}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x.c\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x.c}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x.c}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75X driver. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <at30tse75x.h>}\par
+{\f2 #include <hal_i2c_m_sync.h>}\par
+{\f2 #include <temperature_sensor.h>}\par
+{\f2 #include <at30tse75x_config.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b AT30TSE_TEMPERATURE_REG}\~ 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b AT30TSE_CONFIGURATION_REG}\~ 1\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b AT30TSE_NON_VOLATILE_REG_TYPE}\~ 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b AT30TSE_SENSOR_ADDRESS}\~ 0x4F\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET}\~ 13\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b temperature_sensor} * {\b at30tse75x_construct} (struct {\b temperature_sensor} *const me, void *const io, const uint8_t resolution)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construct {\b at30tse75x} temperature sensor. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b at30tse75x_read} (const struct {\b temperature_sensor} *const me)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Read temperature from the given sensor. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75X driver. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Copyright (c) 2016-2018 Microchip Technology Inc. and its subsidiaries.\par
+\\asf_license_start \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e macros\par
+\pard\plain 
+{\xe \v AT30TSE_CONFIGURATION_REG\:at30tse75x.c}
+{\xe \v at30tse75x.c\:AT30TSE_CONFIGURATION_REG}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define AT30TSE_CONFIGURATION_REG\~ 1}}
+\par
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET\:at30tse75x.c}
+{\xe \v at30tse75x.c\:AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET\~ 13}}
+\par
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Offset of resolution bit-field \par
+}}
+{\xe \v AT30TSE_NON_VOLATILE_REG_TYPE\:at30tse75x.c}
+{\xe \v at30tse75x.c\:AT30TSE_NON_VOLATILE_REG_TYPE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define AT30TSE_NON_VOLATILE_REG_TYPE\~ 0}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Register types of {\b at30tse75x} \par
+}}
+{\xe \v AT30TSE_SENSOR_ADDRESS\:at30tse75x.c}
+{\xe \v at30tse75x.c\:AT30TSE_SENSOR_ADDRESS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define AT30TSE_SENSOR_ADDRESS\~ 0x4F}}
+\par
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Address of temperature sensor \par
+}}
+{\xe \v AT30TSE_TEMPERATURE_REG\:at30tse75x.c}
+{\xe \v at30tse75x.c\:AT30TSE_TEMPERATURE_REG}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define AT30TSE_TEMPERATURE_REG\~ 0}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Register addresses of {\b at30tse75x} \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v at30tse75x_construct\:at30tse75x.c}
+{\xe \v at30tse75x.c\:at30tse75x_construct}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct {\b temperature_sensor} * at30tse75x_construct (struct {\b temperature_sensor} *const  {\i me}, void *const  {\i io}, const uint8_t  {\i resolution})}}
+\par
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construct {\b at30tse75x} temperature sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i me} \cell }{The pointer to temperature sensor to initialize \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i io} \cell }{The pointer to instance of interface to actual sensor \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i resolution} \cell }{The resolution of temperature sensor\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+pointer to initialized sensor \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 63 \{\par
+64     uint8_t                 data[3];\par
+65     {\cf17 struct }i2c_m_sync_desc *descr;\par
+66     {\cf17 struct }at30tse75x *     at30 = ({\cf17 struct }at30tse75x *)me;\par
+67 \par
+68     temperature_sensor_construct(me, io, &at30tse75x_interface);\par
+69     descr            = ({\cf17 struct }i2c_m_sync_desc *)(me->io);\par
+70     at30->resolution = resolution;\par
+71 \par
+72     data[0] = AT30TSE_CONFIGURATION_REG | AT30TSE_NON_VOLATILE_REG_TYPE;\par
+73     data[1] = (uint16_t)(at30->resolution) << (AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET - 8);\par
+74     data[2] = 0;\par
+75     i2c_m_sync_set_slaveaddr(descr, AT30TSE_SENSOR_ADDRESS, I2C_M_SEVEN);\par
+76     io_write(&descr->io, data, 3);\par
+77 \par
+78     {\cf19 return} me;\par
+79 \}\par
+}
+}
+{\xe \v at30tse75x_read\:at30tse75x.c}
+{\xe \v at30tse75x.c\:at30tse75x_read}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float at30tse75x_read (const struct {\b temperature_sensor} *const  {\i me})}}
+\par
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Read temperature from the given sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i me} \cell }{The pointer to temperature sensor to read temperature from\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+temperature \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 85 \{\par
+86     uint8_t                 buffer[2];\par
+87     {\cf17 struct }at30tse75x *     at30  = ({\cf17 struct }at30tse75x *)me;\par
+88     {\cf17 struct }i2c_m_sync_desc *descr = ({\cf17 struct }i2c_m_sync_desc *)(me->io);\par
+89     uint16_t                data;\par
+90     int8_t                  sign = 1;\par
+91 \par
+92     {\cf20 /* Read the 16-bit temperature register. */}\par
+93     buffer[0] = AT30TSE_TEMPERATURE_REG | AT30TSE_NON_VOLATILE_REG_TYPE;\par
+94     buffer[1] = 0;\par
+95     i2c_m_sync_set_slaveaddr(descr, AT30TSE_SENSOR_ADDRESS, I2C_M_SEVEN);\par
+96     io_write(&descr->io, buffer, 1);\par
+97     io_read(&descr->io, buffer, 2);\par
+98 \par
+99     data = (buffer[0] << 8) | buffer[1];\par
+100     sign -= (bool)(data & (1 << 15)) << 1;\par
+101     data &= ~(1 << 15);\par
+102 \par
+103     {\cf20 /* Convert to temperature */}\par
+104     data = data >> (7 - at30->resolution);\par
+105     {\cf19 return} ({\cf18 float})data * sign * (0.5 / (1 << at30->resolution));\par
+106 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x.h}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75X temperature declaration. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <temperature_sensor.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b at30tse75x}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75x temperature sensor. }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b temperature_sensor} * {\b at30tse75x_construct} (struct {\b temperature_sensor} *const me, void *const io, const uint8_t resolution)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construct {\b at30tse75x} temperature sensor. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b at30tse75x_read} (const struct {\b temperature_sensor} *const me)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Read temperature from the given sensor. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+AT30TSE75X temperature declaration. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Copyright (c) 2016-2018 Microchip Technology Inc. and its subsidiaries.\par
+\\asf_license_start \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v at30tse75x_construct\:at30tse75x.h}
+{\xe \v at30tse75x.h\:at30tse75x_construct}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct {\b temperature_sensor} * at30tse75x_construct (struct {\b temperature_sensor} *const  {\i me}, void *const  {\i io}, const uint8_t  {\i resolution})}}
+\par
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construct {\b at30tse75x} temperature sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i me} \cell }{The pointer to temperature sensor to initialize \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i io} \cell }{The pointer to instance of interface to actual sensor \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i resolution} \cell }{The resolution of temperature sensor\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+pointer to initialized sensor \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 63 \{\par
+64     uint8_t                 data[3];\par
+65     {\cf17 struct }i2c_m_sync_desc *descr;\par
+66     {\cf17 struct }at30tse75x *     at30 = ({\cf17 struct }at30tse75x *)me;\par
+67 \par
+68     temperature_sensor_construct(me, io, &at30tse75x_interface);\par
+69     descr            = ({\cf17 struct }i2c_m_sync_desc *)(me->io);\par
+70     at30->resolution = resolution;\par
+71 \par
+72     data[0] = AT30TSE_CONFIGURATION_REG | AT30TSE_NON_VOLATILE_REG_TYPE;\par
+73     data[1] = (uint16_t)(at30->resolution) << (AT30TSE_CONFIGURATION_REG_RESOLUTION_BF_OFFSET - 8);\par
+74     data[2] = 0;\par
+75     i2c_m_sync_set_slaveaddr(descr, AT30TSE_SENSOR_ADDRESS, I2C_M_SEVEN);\par
+76     io_write(&descr->io, data, 3);\par
+77 \par
+78     {\cf19 return} me;\par
+79 \}\par
+}
+}
+{\xe \v at30tse75x_read\:at30tse75x.h}
+{\xe \v at30tse75x.h\:at30tse75x_read}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float at30tse75x_read (const struct {\b temperature_sensor} *const  {\i me})}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Read temperature from the given sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i me} \cell }{The pointer to temperature sensor to read temperature from\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+temperature \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 85 \{\par
+86     uint8_t                 buffer[2];\par
+87     {\cf17 struct }at30tse75x *     at30  = ({\cf17 struct }at30tse75x *)me;\par
+88     {\cf17 struct }i2c_m_sync_desc *descr = ({\cf17 struct }i2c_m_sync_desc *)(me->io);\par
+89     uint16_t                data;\par
+90     int8_t                  sign = 1;\par
+91 \par
+92     {\cf20 /* Read the 16-bit temperature register. */}\par
+93     buffer[0] = AT30TSE_TEMPERATURE_REG | AT30TSE_NON_VOLATILE_REG_TYPE;\par
+94     buffer[1] = 0;\par
+95     i2c_m_sync_set_slaveaddr(descr, AT30TSE_SENSOR_ADDRESS, I2C_M_SEVEN);\par
+96     io_write(&descr->io, buffer, 1);\par
+97     io_read(&descr->io, buffer, 2);\par
+98 \par
+99     data = (buffer[0] << 8) | buffer[1];\par
+100     sign -= (bool)(data & (1 << 15)) << 1;\par
+101     data &= ~(1 << 15);\par
+102 \par
+103     {\cf20 /* Convert to temperature */}\par
+104     data = data >> (7 - at30->resolution);\par
+105     {\cf19 return} ({\cf18 float})data * sign * (0.5 / (1 << at30->resolution));\par
+106 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+at30tse75x.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x.h}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+33 {\cf20 /*}\par
+34 {\cf20  * Support and FAQ: visit <a href="https://www.microchip.com/support/">Microchip Support</a>}\par
+35 {\cf20  */}\par
+36 \par
+37 {\cf21 #ifndef _AT30TSE75X_H_INCLUDED}\par
+38 {\cf21 #define _AT30TSE75X_H_INCLUDED}\par
+39 \par
+40 {\cf21 #ifdef __cplusplus}\par
+41 {\cf17 extern} {\cf22 "C"} \{\par
+42 {\cf21 #endif}\par
+43 \par
+44 {\cf21 #include <temperature_sensor.h>}\par
+45 \par
+49 {\cf17 struct }at30tse75x \{\par
+51     {\cf17 struct }temperature_sensor parent;\par
+53     uint8_t resolution;\par
+54 \};\par
+55 \par
+65 {\cf17 struct }temperature_sensor *at30tse75x_construct({\cf17 struct} temperature_sensor *{\cf17 const} me, {\cf18 void} *{\cf17 const} io,\par
+66                                                 {\cf17 const} uint8_t resolution);\par
+67 \par
+75 {\cf18 float} at30tse75x_read({\cf17 const} {\cf17 struct} temperature_sensor *{\cf17 const} me);\par
+76 \par
+77 {\cf21 #ifdef __cplusplus}\par
+78 \}\par
+79 {\cf21 #endif}\par
+80 \par
+81 {\cf21 #endif }{\cf20 /* _AT30TSE75X_H_INCLUDED */}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x_config.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x_config.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x_config.h}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b CONF_AT30TSE75X_RESOLUTION}\~ 2\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e macros\par
+\pard\plain 
+{\xe \v CONF_AT30TSE75X_RESOLUTION\:at30tse75x_config.h}
+{\xe \v at30tse75x_config.h\:CONF_AT30TSE75X_RESOLUTION}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define CONF_AT30TSE75X_RESOLUTION\~ 2}}
+\par
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+at30tse75x_config.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x_config.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/at30tse75x_config.h}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /* Auto-generated config file at30tse75x_config.h */}\par
+2 {\cf21 #ifndef AT30TSE75X_CONFIG_H}\par
+3 {\cf21 #define AT30TSE75X_CONFIG_H}\par
+4 \par
+5 {\cf20 // <<< Use Configuration Wizard in Context Menu >>>}\par
+6 \par
+7 {\cf20 //<o>Resolution}\par
+8 {\cf20 //<0=>9-bits}\par
+9 {\cf20 //<1=>10 bits}\par
+10 {\cf20 //<2=>11-bits}\par
+11 {\cf20 //<3=>12-bits}\par
+12 {\cf20 //<i>This sets the resolution of temperature measurement}\par
+13 {\cf20 //<id>conf_resolution}\par
+14 {\cf21 #ifndef CONF_AT30TSE75X_RESOLUTION}\par
+15 {\cf21 #define CONF_AT30TSE75X_RESOLUTION 2}\par
+16 {\cf21 #endif}\par
+17 \par
+18 {\cf20 // <<< end of configuration section >>>}\par
+19 \par
+20 {\cf21 #endif }{\cf20 // AT30TSE75X_CONFIG_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start.c\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start.c}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start.c}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <atmel_start.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b atmel_start_init} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v atmel_start_init\:atmel_start.c}
+{\xe \v atmel_start.c\:atmel_start_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void atmel_start_init (void )}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Initializes MCU, drivers and middleware in the project \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 7 \{\par
+8     system_init();\par
+9     stdio_redirect_init();\par
+10 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start.h}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "driver_init.h"}\par
+{\f2 #include "stdio_start.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b atmel_start_init} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v atmel_start_init\:atmel_start.h}
+{\xe \v atmel_start.h\:atmel_start_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void atmel_start_init (void )}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Initializes MCU, drivers and middleware in the project \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 7 \{\par
+8     system_init();\par
+9     stdio_redirect_init();\par
+10 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+atmel_start.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start.h}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef ATMEL_START_H_INCLUDED}\par
+2 {\cf21 #define ATMEL_START_H_INCLUDED}\par
+3 \par
+4 {\cf21 #ifdef __cplusplus}\par
+5 {\cf17 extern} {\cf22 "C"} \{\par
+6 {\cf21 #endif}\par
+7 \par
+8 {\cf21 #include "driver_init.h"}\par
+9 {\cf21 #include "stdio_start.h"}\par
+10 \par
+14 {\cf18 void} atmel_start_init({\cf18 void});\par
+15 \par
+16 {\cf21 #ifdef __cplusplus}\par
+17 \}\par
+18 {\cf21 #endif}\par
+19 {\cf21 #endif}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start_pins.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start_pins.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start_pins.h}
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <hal_gpio.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIO_PIN_FUNCTION_A}\~ 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIO_PIN_FUNCTION_B}\~ 1\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIO_PIN_FUNCTION_C}\~ 2\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIO_PIN_FUNCTION_D}\~ 3\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIO_PIN_FUNCTION_E}\~ 4\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIO_PIN_FUNCTION_F}\~ 5\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIO_PIN_FUNCTION_G}\~ 6\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIO_PIN_FUNCTION_H}\~ 7\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b PA04}\~ GPIO(GPIO_PORTA, 4)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b PA05}\~ GPIO(GPIO_PORTA, 5)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b PA06}\~ GPIO(GPIO_PORTA, 6)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b PA16}\~ GPIO(GPIO_PORTA, 16)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b PA17}\~ GPIO(GPIO_PORTA, 17)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b LED}\~ GPIO(GPIO_PORTA, 18)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e macros\par
+\pard\plain 
+{\xe \v GPIO_PIN_FUNCTION_A\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:GPIO_PIN_FUNCTION_A}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIO_PIN_FUNCTION_A\~ 0}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v GPIO_PIN_FUNCTION_B\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:GPIO_PIN_FUNCTION_B}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIO_PIN_FUNCTION_B\~ 1}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v GPIO_PIN_FUNCTION_C\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:GPIO_PIN_FUNCTION_C}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIO_PIN_FUNCTION_C\~ 2}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v GPIO_PIN_FUNCTION_D\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:GPIO_PIN_FUNCTION_D}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIO_PIN_FUNCTION_D\~ 3}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v GPIO_PIN_FUNCTION_E\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:GPIO_PIN_FUNCTION_E}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIO_PIN_FUNCTION_E\~ 4}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v GPIO_PIN_FUNCTION_F\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:GPIO_PIN_FUNCTION_F}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIO_PIN_FUNCTION_F\~ 5}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v GPIO_PIN_FUNCTION_G\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:GPIO_PIN_FUNCTION_G}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIO_PIN_FUNCTION_G\~ 6}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v GPIO_PIN_FUNCTION_H\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:GPIO_PIN_FUNCTION_H}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIO_PIN_FUNCTION_H\~ 7}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v LED\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:LED}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define LED\~ GPIO(GPIO_PORTA, 18)}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v PA04\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:PA04}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define PA04\~ GPIO(GPIO_PORTA, 4)}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v PA05\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:PA05}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define PA05\~ GPIO(GPIO_PORTA, 5)}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v PA06\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:PA06}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define PA06\~ GPIO(GPIO_PORTA, 6)}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v PA16\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:PA16}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define PA16\~ GPIO(GPIO_PORTA, 16)}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v PA17\:atmel_start_pins.h}
+{\xe \v atmel_start_pins.h\:PA17}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define PA17\~ GPIO(GPIO_PORTA, 17)}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+atmel_start_pins.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start_pins.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/atmel_start_pins.h}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20  * Code generated from Atmel Start.}\par
+3 {\cf20  *}\par
+4 {\cf20  * This file will be overwritten when reconfiguring your Atmel Start project.}\par
+5 {\cf20  * Please copy examples or other code you want to keep to a separate file}\par
+6 {\cf20  * to avoid losing it when reconfiguring.}\par
+7 {\cf20  */}\par
+8 {\cf21 #ifndef ATMEL_START_PINS_H_INCLUDED}\par
+9 {\cf21 #define ATMEL_START_PINS_H_INCLUDED}\par
+10 \par
+11 {\cf21 #include <hal_gpio.h>}\par
+12 \par
+13 {\cf20 // SAMR21 has 8 pin functions}\par
+14 \par
+15 {\cf21 #define GPIO_PIN_FUNCTION_A 0}\par
+16 {\cf21 #define GPIO_PIN_FUNCTION_B 1}\par
+17 {\cf21 #define GPIO_PIN_FUNCTION_C 2}\par
+18 {\cf21 #define GPIO_PIN_FUNCTION_D 3}\par
+19 {\cf21 #define GPIO_PIN_FUNCTION_E 4}\par
+20 {\cf21 #define GPIO_PIN_FUNCTION_F 5}\par
+21 {\cf21 #define GPIO_PIN_FUNCTION_G 6}\par
+22 {\cf21 #define GPIO_PIN_FUNCTION_H 7}\par
+23 \par
+24 {\cf21 #define PA04 GPIO(GPIO_PORTA, 4)}\par
+25 {\cf21 #define PA05 GPIO(GPIO_PORTA, 5)}\par
+26 {\cf21 #define PA06 GPIO(GPIO_PORTA, 6)}\par
+27 {\cf21 #define PA16 GPIO(GPIO_PORTA, 16)}\par
+28 {\cf21 #define PA17 GPIO(GPIO_PORTA, 17)}\par
+29 {\cf21 #define LED GPIO(GPIO_PORTA, 18)}\par
+30 \par
+31 {\cf21 #endif }{\cf20 // ATMEL_START_PINS_H_INCLUDED}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/driver_init.c\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/driver_init.c}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/driver_init.c}
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "driver_init.h"}\par
+{\f2 #include <peripheral_clk_config.h>}\par
+{\f2 #include <utils.h>}\par
+{\f2 #include <hal_init.h>}\par
+{\f2 #include <hpl_gclk_base.h>}\par
+{\f2 #include <hpl_pm_base.h>}\par
+{\f2 #include <hpl_adc_base.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b IO_SENSOR_ADC_CH_AMOUNT}\~ 1\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b IO_SENSOR_ADC_BUFFER_SIZE}\~ 16\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b IO_SENSOR_ADC_CH_MAX}\~ 0\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b IO_SENSOR_ADC_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador ADC e configura o pino PA06 para uso com o ADC. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b TARGETIO_PORT_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador USART (configura os pinos PA04 e PA05 para uso com USART). }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b TARGETIO_CLOCK_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM0. Geralmente \'E9 usado para comunica\'E7\'E3o serial no microcontrolador. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b TARGETIO_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o m\'F3dulo de comunica\'E7\'E3o USART (Universal Synchronous and Asynchronous Receiver-Transmitter) usando o SERCOM0. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C_INSTANCE_PORT_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador I2C (configura os pinos PA16 e PA17 para uso com I2C). }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C_INSTANCE_CLOCK_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM1. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C_INSTANCE_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador de comunica\'E7\'E3o I2C usando o m\'F3dulo SERCOM1. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b delay_driver_init} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o driver de atraso usando SysTick. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b system_init} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o sistema, configurando o microcontrolador e chamando as fun\'E7\'F5es de inicializa\'E7\'E3o dos controladores. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct adc_async_descriptor {\b IO_SENSOR_ADC}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Controlador ADC ass\'EDncrono para o sensor de luz. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct adc_async_channel_descriptor {\b IO_SENSOR_ADC_ch} [{\b IO_SENSOR_ADC_CH_AMOUNT}]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct usart_sync_descriptor {\b TARGETIO}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor de comunica\'E7\'E3o USART s\'EDncrona. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct i2c_m_sync_desc {\b I2C_INSTANCE}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor de comunica\'E7\'E3o I2C mestre s\'EDncrona. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e macros\par
+\pard\plain 
+{\xe \v IO_SENSOR_ADC_BUFFER_SIZE\:driver_init.c}
+{\xe \v driver_init.c\:IO_SENSOR_ADC_BUFFER_SIZE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define IO_SENSOR_ADC_BUFFER_SIZE\~ 16}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v IO_SENSOR_ADC_CH_AMOUNT\:driver_init.c}
+{\xe \v driver_init.c\:IO_SENSOR_ADC_CH_AMOUNT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define IO_SENSOR_ADC_CH_AMOUNT\~ 1}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v IO_SENSOR_ADC_CH_MAX\:driver_init.c}
+{\xe \v driver_init.c\:IO_SENSOR_ADC_CH_MAX}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define IO_SENSOR_ADC_CH_MAX\~ 0}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v delay_driver_init\:driver_init.c}
+{\xe \v driver_init.c\:delay_driver_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void delay_driver_init (void )}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o driver de atraso usando SysTick. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 99                              \{\par
+100     delay_init(SysTick);\par
+101 \}\par
+}
+}
+{\xe \v I2C_INSTANCE_CLOCK_INIT\:driver_init.c}
+{\xe \v driver_init.c\:I2C_INSTANCE_CLOCK_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C_INSTANCE_CLOCK_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM1. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 81                                    \{\par
+82     _pm_enable_bus_clock(PM_BUS_APBC, SERCOM1);\par
+83     _gclk_enable_channel(SERCOM1_GCLK_ID_CORE, CONF_GCLK_SERCOM1_CORE_SRC);\par
+84     _gclk_enable_channel(SERCOM1_GCLK_ID_SLOW, CONF_GCLK_SERCOM1_SLOW_SRC);\par
+85 \}\par
+}
+}
+{\xe \v I2C_INSTANCE_INIT\:driver_init.c}
+{\xe \v driver_init.c\:I2C_INSTANCE_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C_INSTANCE_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador de comunica\'E7\'E3o I2C usando o m\'F3dulo SERCOM1. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador de comunica\'E7\'E3o I2C. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 90                              \{\par
+91     I2C_INSTANCE_CLOCK_INIT();\par
+92     i2c_m_sync_init(&I2C_INSTANCE, SERCOM1);\par
+93     I2C_INSTANCE_PORT_INIT();\par
+94 \}\par
+}
+}
+{\xe \v I2C_INSTANCE_PORT_INIT\:driver_init.c}
+{\xe \v driver_init.c\:I2C_INSTANCE_PORT_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C_INSTANCE_PORT_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador I2C (configura os pinos PA16 e PA17 para uso com I2C). }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os pinos necess\'E1rios para a comunica\'E7\'E3o I2C. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 68                                   \{\par
+69     gpio_set_pin_pull_mode(PA16, GPIO_PULL_OFF);\par
+70     gpio_set_pin_function(PA16, PINMUX_PA16C_SERCOM1_PAD0);\par
+71     gpio_set_pin_pull_mode(PA17, GPIO_PULL_OFF);\par
+72     gpio_set_pin_function(PA17, PINMUX_PA17C_SERCOM1_PAD1);\par
+73 \}\par
+}
+}
+{\xe \v IO_SENSOR_ADC_INIT\:driver_init.c}
+{\xe \v driver_init.c\:IO_SENSOR_ADC_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void IO_SENSOR_ADC_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador ADC e configura o pino PA06 para uso com o ADC. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador ADC para o sensor de luz. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27                               \{\par
+28     _pm_enable_bus_clock(PM_BUS_APBC, ADC);\par
+29     _gclk_enable_channel(ADC_GCLK_ID, CONF_GCLK_ADC_SRC);\par
+30     adc_async_init(&IO_SENSOR_ADC, ADC, IO_SENSOR_ADC_map, IO_SENSOR_ADC_CH_MAX,\par
+31     IO_SENSOR_ADC_CH_AMOUNT, &IO_SENSOR_ADC_ch[0], ({\cf18 void} *)NULL);\par
+32     adc_async_register_channel_buffer(&IO_SENSOR_ADC, 0, IO_SENSOR_ADC_buffer,\par
+33     IO_SENSOR_ADC_BUFFER_SIZE);\par
+34     gpio_set_pin_direction(PA06, GPIO_DIRECTION_OFF);\par
+35     gpio_set_pin_function(PA06, PINMUX_PA06B_ADC_AIN6);\par
+36 \}\par
+}
+}
+{\xe \v system_init\:driver_init.c}
+{\xe \v driver_init.c\:system_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void system_init (void )}}
+\par
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o sistema, configurando o microcontrolador e chamando as fun\'E7\'F5es de inicializa\'E7\'E3o dos controladores. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Perform system initialization, initialize pins and clocks for peripherals. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 106                        \{\par
+107     init_mcu(); {\cf20 // Inicializa o microcontrolador}\par
+108     {\cf20 //Configura o pino do LED e o coloca em n\'EDvel baixo.}\par
+109     gpio_set_pin_level(LED, {\cf17 false});\par
+110     gpio_set_pin_direction(LED, GPIO_DIRECTION_OUT);\par
+111     gpio_set_pin_function(LED, GPIO_PIN_FUNCTION_OFF);\par
+112     {\cf20 //Chama as fun\'E7\'F5es de inicializa\'E7\'E3o dos controladores}\par
+113     IO_SENSOR_ADC_INIT();\par
+114     TARGETIO_INIT();\par
+115     I2C_INSTANCE_INIT();\par
+116     delay_driver_init();\par
+117 \}\par
+}
+}
+{\xe \v TARGETIO_CLOCK_INIT\:driver_init.c}
+{\xe \v driver_init.c\:TARGETIO_CLOCK_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void TARGETIO_CLOCK_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM0. Geralmente \'E9 usado para comunica\'E7\'E3o serial no microcontrolador. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM0 usado para USART. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 50                                \{\par
+51     _pm_enable_bus_clock(PM_BUS_APBC, SERCOM0);\par
+52     _gclk_enable_channel(SERCOM0_GCLK_ID_CORE, CONF_GCLK_SERCOM0_CORE_SRC);\par
+53 \}\par
+}
+}
+{\xe \v TARGETIO_INIT\:driver_init.c}
+{\xe \v driver_init.c\:TARGETIO_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void TARGETIO_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o m\'F3dulo de comunica\'E7\'E3o USART (Universal Synchronous and Asynchronous Receiver-Transmitter) usando o SERCOM0. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 59                          \{\par
+60     TARGETIO_CLOCK_INIT();\par
+61     usart_sync_init(&TARGETIO, SERCOM0, ({\cf18 void} *)NULL);\par
+62     TARGETIO_PORT_INIT();\par
+63 \}\par
+}
+}
+{\xe \v TARGETIO_PORT_INIT\:driver_init.c}
+{\xe \v driver_init.c\:TARGETIO_PORT_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void TARGETIO_PORT_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador USART (configura os pinos PA04 e PA05 para uso com USART). }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os pinos necess\'E1rios para a comunica\'E7\'E3o USART. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 41                               \{\par
+42     gpio_set_pin_function(PA04, PINMUX_PA04D_SERCOM0_PAD0);\par
+43     gpio_set_pin_function(PA05, PINMUX_PA05D_SERCOM0_PAD1);\par
+44 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+{\xe \v I2C_INSTANCE\:driver_init.c}
+{\xe \v driver_init.c\:I2C_INSTANCE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct i2c_m_sync_desc I2C_INSTANCE}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor de comunica\'E7\'E3o I2C mestre s\'EDncrona. }}\par
+}
+{\xe \v IO_SENSOR_ADC\:driver_init.c}
+{\xe \v driver_init.c\:IO_SENSOR_ADC}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct adc_async_descriptor IO_SENSOR_ADC}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Controlador ADC ass\'EDncrono para o sensor de luz. }}\par
+}
+{\xe \v IO_SENSOR_ADC_ch\:driver_init.c}
+{\xe \v driver_init.c\:IO_SENSOR_ADC_ch}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct adc_async_channel_descriptor IO_SENSOR_ADC_ch[{\b IO_SENSOR_ADC_CH_AMOUNT}]}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v TARGETIO\:driver_init.c}
+{\xe \v driver_init.c\:TARGETIO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct usart_sync_descriptor TARGETIO}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor de comunica\'E7\'E3o USART s\'EDncrona. }}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/driver_init.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/driver_init.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/driver_init.h}
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "atmel_start_pins.h"}\par
+{\f2 #include <hal_atomic.h>}\par
+{\f2 #include <hal_delay.h>}\par
+{\f2 #include <hal_gpio.h>}\par
+{\f2 #include <hal_init.h>}\par
+{\f2 #include <hal_io.h>}\par
+{\f2 #include <hal_sleep.h>}\par
+{\f2 #include <hal_adc_async.h>}\par
+{\f2 #include <hal_usart_sync.h>}\par
+{\f2 #include <hal_i2c_m_sync.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b IO_SENSOR_ADC_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador ADC para o sensor de luz. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b TARGETIO_PORT_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os pinos necess\'E1rios para a comunica\'E7\'E3o USART. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b TARGETIO_CLOCK_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM0 usado para USART. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b TARGETIO_init} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador de comunica\'E7\'E3o USART. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C_INSTANCE_CLOCK_INSTANCE} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM1 usado para I2C. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C_INSTANCE_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador de comunica\'E7\'E3o I2C. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C_INSTANCE_PORT_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os pinos necess\'E1rios para a comunica\'E7\'E3o I2C. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b delay_driver_init} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o driver de atraso usando SysTick. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b system_init} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Perform system initialization, initialize pins and clocks for peripherals. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct adc_async_descriptor {\b IO_SENSOR_ADC}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Controlador ADC ass\'EDncrono para o sensor de luz. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct usart_sync_descriptor {\b TARGETIO}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor de comunica\'E7\'E3o USART s\'EDncrona. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct i2c_m_sync_desc {\b I2C_INSTANCE}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor de comunica\'E7\'E3o I2C mestre s\'EDncrona. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v delay_driver_init\:driver_init.h}
+{\xe \v driver_init.h\:delay_driver_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void delay_driver_init (void )}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o driver de atraso usando SysTick. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 99                              \{\par
+100     delay_init(SysTick);\par
+101 \}\par
+}
+}
+{\xe \v I2C_INSTANCE_CLOCK_INSTANCE\:driver_init.h}
+{\xe \v driver_init.h\:I2C_INSTANCE_CLOCK_INSTANCE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C_INSTANCE_CLOCK_INSTANCE (void )}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM1 usado para I2C. }}\par
+}
+{\xe \v I2C_INSTANCE_INIT\:driver_init.h}
+{\xe \v driver_init.h\:I2C_INSTANCE_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C_INSTANCE_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador de comunica\'E7\'E3o I2C. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador de comunica\'E7\'E3o I2C. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 90                              \{\par
+91     I2C_INSTANCE_CLOCK_INIT();\par
+92     i2c_m_sync_init(&I2C_INSTANCE, SERCOM1);\par
+93     I2C_INSTANCE_PORT_INIT();\par
+94 \}\par
+}
+}
+{\xe \v I2C_INSTANCE_PORT_INIT\:driver_init.h}
+{\xe \v driver_init.h\:I2C_INSTANCE_PORT_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C_INSTANCE_PORT_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os pinos necess\'E1rios para a comunica\'E7\'E3o I2C. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os pinos necess\'E1rios para a comunica\'E7\'E3o I2C. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 68                                   \{\par
+69     gpio_set_pin_pull_mode(PA16, GPIO_PULL_OFF);\par
+70     gpio_set_pin_function(PA16, PINMUX_PA16C_SERCOM1_PAD0);\par
+71     gpio_set_pin_pull_mode(PA17, GPIO_PULL_OFF);\par
+72     gpio_set_pin_function(PA17, PINMUX_PA17C_SERCOM1_PAD1);\par
+73 \}\par
+}
+}
+{\xe \v IO_SENSOR_ADC_INIT\:driver_init.h}
+{\xe \v driver_init.h\:IO_SENSOR_ADC_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void IO_SENSOR_ADC_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador ADC para o sensor de luz. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador ADC para o sensor de luz. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27                               \{\par
+28     _pm_enable_bus_clock(PM_BUS_APBC, ADC);\par
+29     _gclk_enable_channel(ADC_GCLK_ID, CONF_GCLK_ADC_SRC);\par
+30     adc_async_init(&IO_SENSOR_ADC, ADC, IO_SENSOR_ADC_map, IO_SENSOR_ADC_CH_MAX,\par
+31     IO_SENSOR_ADC_CH_AMOUNT, &IO_SENSOR_ADC_ch[0], ({\cf18 void} *)NULL);\par
+32     adc_async_register_channel_buffer(&IO_SENSOR_ADC, 0, IO_SENSOR_ADC_buffer,\par
+33     IO_SENSOR_ADC_BUFFER_SIZE);\par
+34     gpio_set_pin_direction(PA06, GPIO_DIRECTION_OFF);\par
+35     gpio_set_pin_function(PA06, PINMUX_PA06B_ADC_AIN6);\par
+36 \}\par
+}
+}
+{\xe \v system_init\:driver_init.h}
+{\xe \v driver_init.h\:system_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void system_init (void )}}
+\par
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Perform system initialization, initialize pins and clocks for peripherals. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Perform system initialization, initialize pins and clocks for peripherals. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 106                        \{\par
+107     init_mcu(); {\cf20 // Inicializa o microcontrolador}\par
+108     {\cf20 //Configura o pino do LED e o coloca em n\'EDvel baixo.}\par
+109     gpio_set_pin_level(LED, {\cf17 false});\par
+110     gpio_set_pin_direction(LED, GPIO_DIRECTION_OUT);\par
+111     gpio_set_pin_function(LED, GPIO_PIN_FUNCTION_OFF);\par
+112     {\cf20 //Chama as fun\'E7\'F5es de inicializa\'E7\'E3o dos controladores}\par
+113     IO_SENSOR_ADC_INIT();\par
+114     TARGETIO_INIT();\par
+115     I2C_INSTANCE_INIT();\par
+116     delay_driver_init();\par
+117 \}\par
+}
+}
+{\xe \v TARGETIO_CLOCK_INIT\:driver_init.h}
+{\xe \v driver_init.h\:TARGETIO_CLOCK_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void TARGETIO_CLOCK_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM0 usado para USART. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o clock para o m\'F3dulo SERCOM0 usado para USART. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 50                                \{\par
+51     _pm_enable_bus_clock(PM_BUS_APBC, SERCOM0);\par
+52     _gclk_enable_channel(SERCOM0_GCLK_ID_CORE, CONF_GCLK_SERCOM0_CORE_SRC);\par
+53 \}\par
+}
+}
+{\xe \v TARGETIO_init\:driver_init.h}
+{\xe \v driver_init.h\:TARGETIO_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void TARGETIO_init (void )}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o controlador de comunica\'E7\'E3o USART. }}\par
+}
+{\xe \v TARGETIO_PORT_INIT\:driver_init.h}
+{\xe \v driver_init.h\:TARGETIO_PORT_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void TARGETIO_PORT_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os pinos necess\'E1rios para a comunica\'E7\'E3o USART. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os pinos necess\'E1rios para a comunica\'E7\'E3o USART. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 41                               \{\par
+42     gpio_set_pin_function(PA04, PINMUX_PA04D_SERCOM0_PAD0);\par
+43     gpio_set_pin_function(PA05, PINMUX_PA05D_SERCOM0_PAD1);\par
+44 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+{\xe \v I2C_INSTANCE\:driver_init.h}
+{\xe \v driver_init.h\:I2C_INSTANCE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct i2c_m_sync_desc I2C_INSTANCE{\f2 [extern]}}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor de comunica\'E7\'E3o I2C mestre s\'EDncrona. }}\par
+}
+{\xe \v IO_SENSOR_ADC\:driver_init.h}
+{\xe \v driver_init.h\:IO_SENSOR_ADC}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct adc_async_descriptor IO_SENSOR_ADC{\f2 [extern]}}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Controlador ADC ass\'EDncrono para o sensor de luz. }}\par
+}
+{\xe \v TARGETIO\:driver_init.h}
+{\xe \v driver_init.h\:TARGETIO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct usart_sync_descriptor TARGETIO{\f2 [extern]}}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor de comunica\'E7\'E3o USART s\'EDncrona. }}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+driver_init.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/driver_init.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/driver_init.h}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef DRIVER_INIT_INCLUDED}\par
+2 {\cf21 #define DRIVER_INIT_INCLUDED}\par
+3 \par
+4 {\cf21 #include "atmel_start_pins.h"}\par
+5 \par
+6 {\cf21 #ifdef __cplusplus}\par
+7 {\cf17 extern} {\cf22 "C"} \{\par
+8 {\cf21 #endif}\par
+9 \par
+10 {\cf21 #include <hal_atomic.h>}\par
+11 {\cf21 #include <hal_delay.h>}\par
+12 {\cf21 #include <hal_gpio.h>}\par
+13 {\cf21 #include <hal_init.h>}\par
+14 {\cf21 #include <hal_io.h>}\par
+15 {\cf21 #include <hal_sleep.h>}\par
+16 {\cf21 #include <hal_adc_async.h>}\par
+17 {\cf21 #include <hal_usart_sync.h>}\par
+18 {\cf21 #include <hal_i2c_m_sync.h>}\par
+19 \par
+23 {\cf17 extern} {\cf17 struct }adc_async_descriptor IO_SENSOR_ADC;\par
+24 \par
+28 {\cf17 extern} {\cf17 struct }usart_sync_descriptor TARGETIO;\par
+29 \par
+33 {\cf17 extern} {\cf17 struct }i2c_m_sync_desc I2C_INSTANCE;\par
+34 \par
+38 {\cf18 void} IO_SENSOR_ADC_INIT({\cf18 void});\par
+39 \par
+43 {\cf18 void} TARGETIO_PORT_INIT({\cf18 void});\par
+44 \par
+48 {\cf18 void} TARGETIO_CLOCK_INIT({\cf18 void});\par
+49 \par
+53 {\cf18 void} TARGETIO_init({\cf18 void});\par
+54 \par
+58 {\cf18 void} I2C_INSTANCE_CLOCK_INSTANCE({\cf18 void});\par
+59 \par
+63 {\cf18 void} I2C_INSTANCE_INIT({\cf18 void});\par
+64 \par
+68 {\cf18 void} I2C_INSTANCE_PORT_INIT({\cf18 void});\par
+69 \par
+73 {\cf18 void} delay_driver_init({\cf18 void});\par
+74 \par
+78 {\cf18 void} system_init({\cf18 void});\par
+79 \par
+80 {\cf21 #ifdef __cplusplus}\par
+81 \}\par
+82 {\cf21 #endif}\par
+83 \par
+84 {\cf21 #endif }{\cf20 // DRIVER_INIT_INCLUDED}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/IO1_drivers.c\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/IO1_drivers.c}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/IO1_drivers.c}
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Fun\'E7\'F5es relacionadas ao sensor de luz e suas opera\'E7\'F5es. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <IO1_drivers.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b IO_SENSOR_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os par\'E2metros do sensor de luz, da USART e do sensor de temperatura. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b sendByteToUART} (uint8_t byte_to_send)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Envia um byte para a UART de debug. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b readVoltageSensor} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+L\'EA o valor digital do sensor de luz ap\'F3s passar pelo ADC e calcula a tens\'E3o medida pelo sensor. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b readCurrentSensor} (float voltage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Calcula a corrente com base na diferen\'E7a entre a tens\'E3o de refer\'EAncia e a tens\'E3o medida, considerando a rela\'E7\'E3o entre a corrente do fototransistor e a ilumin\'E2ncia. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b readLightSensor} (float current)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Calcula a ilumin\'E2ncia com base nos valores medidos de corrente. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint16_t {\b readTemperatureSensor} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+L\'EA a temperatura do sensor de temperatura. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b IO1X_LED_ON} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Liga o LED da placa de expans\'E3o IO1X. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b floatToString} (float num, char *str, int precision)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Converte um n\'FAmero float em string com a precis\'E3o informada. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+volatile bool {\b conversion_done} = false\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Flag que indica se a convers\'E3o anal\'F3gico-digital do sensor de luz foi conclu\'EDda. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Fun\'E7\'F5es relacionadas ao sensor de luz e suas opera\'E7\'F5es. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v floatToString\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:floatToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void floatToString (float  {\i num}, char *  {\i str}, int  {\i precision})}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Converte um n\'FAmero float em string com a precis\'E3o informada. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i num} \cell }{N\'FAmero a ser convertido. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i str} \cell }{String resultante da convers\'E3o. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i precision} \cell }{Precis\'E3o da convers\'E3o. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 117                                                         \{\par
+118     {\cf18 int} i = 0;\par
+119     {\cf18 int} integralPart = (int)num;\par
+120     \par
+121     {\cf20 /* Converte a parte inteira para string */}\par
+122     {\cf19 do} \{\par
+123         str[i++] = integralPart % 10 + {\cf23 '0'};\par
+124         integralPart /= 10;\par
+125     \} {\cf19 while} (integralPart > 0);\par
+126     \par
+127     {\cf20 /* Inverte a string da parte inteira */}\par
+128     {\cf18 int} j;\par
+129     {\cf18 int} len = i;\par
+130     {\cf19 for} (j = 0; j < len / 2; j++) \{\par
+131         {\cf18 char} temp = str[j];\par
+132         str[j] = str[len - j - 1];\par
+133         str[len - j - 1] = temp;\par
+134     \}\par
+135     \par
+136     {\cf20 /* Adiciona ponto decimal */}\par
+137     str[i++] = {\cf23 '.'};\par
+138     \par
+139     {\cf20 /* Converte a parte fracion\'E1ria para string */}\par
+140     {\cf18 float} fractionalPart = num - (int)num;\par
+141     {\cf18 int} k;\par
+142     {\cf19 for} (k = 0; k < precision; k++) \{\par
+143         fractionalPart *= 10;\par
+144         {\cf18 int} digit = (int)fractionalPart;\par
+145         str[i++] = digit + {\cf23 '0'};\par
+146         fractionalPart -= digit;\par
+147     \}\par
+148     \par
+149     {\cf20 /* Adiciona caractere de t\'E9rmino */}\par
+150     str[i] = {\cf23 '\\0'};\par
+151 \}\par
+}
+}
+{\xe \v IO1X_LED_ON\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:IO1X_LED_ON}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void IO1X_LED_ON (void )}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Liga o LED da placa de expans\'E3o IO1X. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 106                       \{\par
+107     gpio_set_pin_level(LED, {\cf17 false});\par
+108 \}\par
+}
+}
+{\xe \v IO_SENSOR_INIT\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:IO_SENSOR_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void IO_SENSOR_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os par\'E2metros do sensor de luz, da USART e do sensor de temperatura. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os par\'E2metros do sensor de luz, USART e sensor de temperatura. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 25                          \{\par
+26    {\cf20 /* Inicializa\'E7\'E3o par\'E2metros sensor de luz */}\par
+27    adc_async_register_callback(&IO_SENSOR_ADC, 0, ADC_ASYNC_CONVERT_CB, lightSensor_ADC_conversion_callback);\par
+28    adc_async_enable_channel(&IO_SENSOR_ADC, 0);\par
+29    adc_async_start_conversion(&IO_SENSOR_ADC);\par
+30    \par
+31    {\cf20 /* Inicializa\'E7\'E3o par\'E2metros USART */}\par
+32    usart_sync_get_io_descriptor(&TARGETIO, &TARGETIO_DEBUG);\par
+33    \par
+34    {\cf20 /* Inicializa\'E7\'E3o par\'E2metros do sensor de temperatura */}\par
+35    i2c_m_sync_enable(&I2C_INSTANCE);\par
+36    AT30TSE75X = at30tse75x_construct(&AT30TSE75X_descr.parent, &I2C_INSTANCE, CONF_AT30TSE75X_RESOLUTION);\par
+37 \}\par
+}
+}
+{\xe \v readCurrentSensor\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:readCurrentSensor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float readCurrentSensor (float  {\i voltage})}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Calcula a corrente com base na diferen\'E7a entre a tens\'E3o de refer\'EAncia e a tens\'E3o medida, considerando a rela\'E7\'E3o entre a corrente do fototransistor e a ilumin\'E2ncia. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i voltage} \cell }{Tens\'E3o medida pelo sensor de luz. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Corrente calculada. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 73                                       \{\par
+74     {\cf18 float} IO_SENSOR_CURRENT;\par
+75     {\cf20 /* Calcula a corrente com base na diferen\'E7a entre a tens\'E3o de refer\'EAncia e a tens\'E3o medida,}\par
+76 {\cf20      considerando a rela\'E7\'E3o entre a corrente do fototransistor e a ilumin\'E2ncia*/}\par
+77     IO_SENSOR_CURRENT = (VCC_TARGET - voltage)/100000; \par
+78     {\cf19 return} IO_SENSOR_CURRENT ;\par
+79 \}\par
+}
+}
+{\xe \v readLightSensor\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:readLightSensor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float readLightSensor (float  {\i current})}}
+\par
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Calcula a ilumin\'E2ncia com base nos valores medidos de corrente. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i current} \cell }{Corrente medida. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Ilumin\'E2ncia calculada. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 87                                     \{\par
+88     {\cf18 float} IO_ILUMINANCE;    {\cf20 //Representa a ilumin\'E2ncia calculada com base nos valores medidos}\par
+89     \par
+90     IO_ILUMINANCE = (current * 2 *10)/0.000001;\par
+91     {\cf19 return} IO_ILUMINANCE;\par
+92 \}\par
+}
+}
+{\xe \v readTemperatureSensor\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:readTemperatureSensor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint16_t readTemperatureSensor (void )}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+L\'EA a temperatura do sensor de temperatura. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Temperatura lida. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 99                                     \{\par
+100     {\cf19 return} (uint16_t)temperature_sensor_read(AT30TSE75X);\par
+101 \}\par
+}
+}
+{\xe \v readVoltageSensor\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:readVoltageSensor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float readVoltageSensor (void )}}
+\par
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+L\'EA o valor digital do sensor de luz ap\'F3s passar pelo ADC e calcula a tens\'E3o medida pelo sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Tens\'E3o medida pelo sensor de luz. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 53                              \{\par
+54     uint8_t IO_SENSOR_VALUE;  {\cf20 //Armazena o valor lido do sensor de luz}\par
+55     {\cf18 float} IO_SENSOR_VOLTAGE; {\cf20 //Armazena a tens\'E3o medida pelo sensor}\par
+56     {\cf20 /* Faz a convers\'E3o AD do sensor de luz*/}\par
+57     adc_async_start_conversion(&IO_SENSOR_ADC);\par
+58     {\cf19 while}(!conversion_done)\{\}\par
+59     adc_async_read_channel(&IO_SENSOR_ADC, 0, &IO_SENSOR_VALUE, 1);\par
+60     \par
+61     {\cf20 /* Faz a defini\'E7\'E3o dos valores de tens\'E3o lidos do sensor a partir dos dados quantizados do ADC*/}\par
+62     IO_SENSOR_VOLTAGE = IO_SENSOR_VALUE * VCC_TARGET / 255;\par
+63     {\cf19 return} IO_SENSOR_VOLTAGE;\par
+64 \}\par
+}
+}
+{\xe \v sendByteToUART\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:sendByteToUART}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void sendByteToUART (uint8_t  {\i byte_to_send})}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Envia um byte para a UART de debug. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i byte_to_send} \cell }{Byte a ser enviado. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 44                                          \{\par
+45     io_write(TARGETIO_DEBUG, &byte_to_send, 1);\par
+46 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+{\xe \v conversion_done\:IO1_drivers.c}
+{\xe \v IO1_drivers.c\:conversion_done}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+volatile bool conversion_done = false}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Flag que indica se a convers\'E3o anal\'F3gico-digital do sensor de luz foi conclu\'EDda. }}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/IO1_drivers.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/IO1_drivers.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/IO1_drivers.h}
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "driver_init.h"}\par
+{\f2 #include <stdio.h>}\par
+{\f2 #include <at30tse75x.h>}\par
+{\f2 #include <temperature_sensor.h>}\par
+{\f2 #include <at30tse75x_config.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b VCC_TARGET}\~ 3.3\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b CONF_AT30TSE75X_RESOLUTION}\~ 2\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b IO_SENSOR_INIT} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os par\'E2metros do sensor de luz, USART e sensor de temperatura. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b sendByteToUART} (uint8_t byte_to_send)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Envia um byte para a UART de debug. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b readVoltageSensor} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+L\'EA o valor digital do sensor de luz ap\'F3s passar pelo ADC e calcula a tens\'E3o medida pelo sensor. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b readCurrentSensor} (float voltage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Calcula a corrente com base na diferen\'E7a entre a tens\'E3o de refer\'EAncia e a tens\'E3o medida, considerando a rela\'E7\'E3o entre a corrente do fototransistor e a ilumin\'E2ncia. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b readLightSensor} (float current)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Calcula a ilumin\'E2ncia com base nos valores medidos de corrente. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b IO1X_LED_ON} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Liga o LED da placa de expans\'E3o IO1X. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b IO1X_LED_OFF} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Desliga o LED da placa de expans\'E3o IO1X. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b floatToString} (float num, char *str, int precision)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Converte um n\'FAmero float em string com a precis\'E3o informada. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b temperature_sensor} * {\b AT30TSE75X}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct io_descriptor * {\b TARGETIO_DEBUG}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e macros\par
+\pard\plain 
+{\xe \v CONF_AT30TSE75X_RESOLUTION\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:CONF_AT30TSE75X_RESOLUTION}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define CONF_AT30TSE75X_RESOLUTION\~ 2}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Resolu\'E7\'E3o configurada para o sensor de temperatura \par
+}}
+{\xe \v VCC_TARGET\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:VCC_TARGET}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define VCC_TARGET\~ 3.3}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Tens\'E3o VCC da placa de R21 usada como referencia \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v floatToString\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:floatToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void floatToString (float  {\i num}, char *  {\i str}, int  {\i precision})}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Converte um n\'FAmero float em string com a precis\'E3o informada. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i num} \cell }{N\'FAmero a ser convertido. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i str} \cell }{String resultante da convers\'E3o. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i precision} \cell }{Precis\'E3o da convers\'E3o.\cell }
+{\row }
+}
+Converte um n\'FAmero float em string com a precis\'E3o informada \'C9 usada para poder imprimir um valor float na tela usando o sprintf O compilador usado n\'E3o aceita float no sprintf \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 117                                                         \{\par
+118     {\cf18 int} i = 0;\par
+119     {\cf18 int} integralPart = (int)num;\par
+120     \par
+121     {\cf20 /* Converte a parte inteira para string */}\par
+122     {\cf19 do} \{\par
+123         str[i++] = integralPart % 10 + {\cf23 '0'};\par
+124         integralPart /= 10;\par
+125     \} {\cf19 while} (integralPart > 0);\par
+126     \par
+127     {\cf20 /* Inverte a string da parte inteira */}\par
+128     {\cf18 int} j;\par
+129     {\cf18 int} len = i;\par
+130     {\cf19 for} (j = 0; j < len / 2; j++) \{\par
+131         {\cf18 char} temp = str[j];\par
+132         str[j] = str[len - j - 1];\par
+133         str[len - j - 1] = temp;\par
+134     \}\par
+135     \par
+136     {\cf20 /* Adiciona ponto decimal */}\par
+137     str[i++] = {\cf23 '.'};\par
+138     \par
+139     {\cf20 /* Converte a parte fracion\'E1ria para string */}\par
+140     {\cf18 float} fractionalPart = num - (int)num;\par
+141     {\cf18 int} k;\par
+142     {\cf19 for} (k = 0; k < precision; k++) \{\par
+143         fractionalPart *= 10;\par
+144         {\cf18 int} digit = (int)fractionalPart;\par
+145         str[i++] = digit + {\cf23 '0'};\par
+146         fractionalPart -= digit;\par
+147     \}\par
+148     \par
+149     {\cf20 /* Adiciona caractere de t\'E9rmino */}\par
+150     str[i] = {\cf23 '\\0'};\par
+151 \}\par
+}
+}
+{\xe \v IO1X_LED_OFF\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:IO1X_LED_OFF}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void IO1X_LED_OFF (void )}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Desliga o LED da placa de expans\'E3o IO1X. }}\par
+}
+{\xe \v IO1X_LED_ON\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:IO1X_LED_ON}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void IO1X_LED_ON (void )}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Liga o LED da placa de expans\'E3o IO1X. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 106                       \{\par
+107     gpio_set_pin_level(LED, {\cf17 false});\par
+108 \}\par
+}
+}
+{\xe \v IO_SENSOR_INIT\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:IO_SENSOR_INIT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void IO_SENSOR_INIT (void )}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os par\'E2metros do sensor de luz, USART e sensor de temperatura. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa os par\'E2metros do sensor de luz, USART e sensor de temperatura. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 25                          \{\par
+26    {\cf20 /* Inicializa\'E7\'E3o par\'E2metros sensor de luz */}\par
+27    adc_async_register_callback(&IO_SENSOR_ADC, 0, ADC_ASYNC_CONVERT_CB, lightSensor_ADC_conversion_callback);\par
+28    adc_async_enable_channel(&IO_SENSOR_ADC, 0);\par
+29    adc_async_start_conversion(&IO_SENSOR_ADC);\par
+30    \par
+31    {\cf20 /* Inicializa\'E7\'E3o par\'E2metros USART */}\par
+32    usart_sync_get_io_descriptor(&TARGETIO, &TARGETIO_DEBUG);\par
+33    \par
+34    {\cf20 /* Inicializa\'E7\'E3o par\'E2metros do sensor de temperatura */}\par
+35    i2c_m_sync_enable(&I2C_INSTANCE);\par
+36    AT30TSE75X = at30tse75x_construct(&AT30TSE75X_descr.parent, &I2C_INSTANCE, CONF_AT30TSE75X_RESOLUTION);\par
+37 \}\par
+}
+}
+{\xe \v readCurrentSensor\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:readCurrentSensor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float readCurrentSensor (float  {\i voltage})}}
+\par
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Calcula a corrente com base na diferen\'E7a entre a tens\'E3o de refer\'EAncia e a tens\'E3o medida, considerando a rela\'E7\'E3o entre a corrente do fototransistor e a ilumin\'E2ncia. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i voltage} \cell }{Tens\'E3o medida pelo sensor de luz. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Corrente calculada. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 73                                       \{\par
+74     {\cf18 float} IO_SENSOR_CURRENT;\par
+75     {\cf20 /* Calcula a corrente com base na diferen\'E7a entre a tens\'E3o de refer\'EAncia e a tens\'E3o medida,}\par
+76 {\cf20      considerando a rela\'E7\'E3o entre a corrente do fototransistor e a ilumin\'E2ncia*/}\par
+77     IO_SENSOR_CURRENT = (VCC_TARGET - voltage)/100000; \par
+78     {\cf19 return} IO_SENSOR_CURRENT ;\par
+79 \}\par
+}
+}
+{\xe \v readLightSensor\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:readLightSensor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float readLightSensor (float  {\i current})}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Calcula a ilumin\'E2ncia com base nos valores medidos de corrente. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i current} \cell }{Corrente medida. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Ilumin\'E2ncia calculada. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 87                                     \{\par
+88     {\cf18 float} IO_ILUMINANCE;    {\cf20 //Representa a ilumin\'E2ncia calculada com base nos valores medidos}\par
+89     \par
+90     IO_ILUMINANCE = (current * 2 *10)/0.000001;\par
+91     {\cf19 return} IO_ILUMINANCE;\par
+92 \}\par
+}
+}
+{\xe \v readVoltageSensor\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:readVoltageSensor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float readVoltageSensor (void )}}
+\par
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+L\'EA o valor digital do sensor de luz ap\'F3s passar pelo ADC e calcula a tens\'E3o medida pelo sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Tens\'E3o medida pelo sensor de luz. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 53                              \{\par
+54     uint8_t IO_SENSOR_VALUE;  {\cf20 //Armazena o valor lido do sensor de luz}\par
+55     {\cf18 float} IO_SENSOR_VOLTAGE; {\cf20 //Armazena a tens\'E3o medida pelo sensor}\par
+56     {\cf20 /* Faz a convers\'E3o AD do sensor de luz*/}\par
+57     adc_async_start_conversion(&IO_SENSOR_ADC);\par
+58     {\cf19 while}(!conversion_done)\{\}\par
+59     adc_async_read_channel(&IO_SENSOR_ADC, 0, &IO_SENSOR_VALUE, 1);\par
+60     \par
+61     {\cf20 /* Faz a defini\'E7\'E3o dos valores de tens\'E3o lidos do sensor a partir dos dados quantizados do ADC*/}\par
+62     IO_SENSOR_VOLTAGE = IO_SENSOR_VALUE * VCC_TARGET / 255;\par
+63     {\cf19 return} IO_SENSOR_VOLTAGE;\par
+64 \}\par
+}
+}
+{\xe \v sendByteToUART\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:sendByteToUART}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void sendByteToUART (uint8_t  {\i byte_to_send})}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Envia um byte para a UART de debug. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i byte_to_send} \cell }{Byte a ser enviado. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 44                                          \{\par
+45     io_write(TARGETIO_DEBUG, &byte_to_send, 1);\par
+46 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+{\xe \v AT30TSE75X\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:AT30TSE75X}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct {\b temperature_sensor}* AT30TSE75X}}
+\par
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor para o sensor de temperatura AT30TSE75X \par
+}}
+{\xe \v TARGETIO_DEBUG\:IO1_drivers.h}
+{\xe \v IO1_drivers.h\:TARGETIO_DEBUG}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct io_descriptor* TARGETIO_DEBUG}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Descritor para a interface de comunica\'E7\'E3o USART de debug \par
+}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+IO1_drivers.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/IO1_drivers.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/IO1_drivers.h}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef _IO1X_Plained_drivers}\par
+2 {\cf21 #define _IO1X_Plained_drivers}\par
+3 \par
+4 {\cf21 #include "driver_init.h"}\par
+5 {\cf21 #include <stdio.h>}\par
+6 {\cf21 #include <at30tse75x.h>}\par
+7 {\cf21 #include <temperature_sensor.h>}\par
+8 {\cf21 #include <at30tse75x_config.h>}\par
+9 \par
+10 {\cf21 #define VCC_TARGET 3.3 }\par
+11 {\cf21 #define CONF_AT30TSE75X_RESOLUTION 2 }\par
+13 {\cf17 struct }temperature_sensor *AT30TSE75X; \par
+14 {\cf17 struct }io_descriptor* TARGETIO_DEBUG; \par
+16 {\cf17 static} {\cf17 struct }at30tse75x AT30TSE75X_descr; \par
+21 {\cf18 void} IO_SENSOR_INIT({\cf18 void});\par
+22 \par
+28 {\cf18 void} sendByteToUART(uint8_t byte_to_send);\par
+29 \par
+35 {\cf18 float} readVoltageSensor({\cf18 void});\par
+36 \par
+44 {\cf18 float} readCurrentSensor({\cf18 float} voltage);\par
+45 \par
+52 {\cf18 float} readLightSensor({\cf18 float} current);\par
+53 \par
+57 {\cf18 void} IO1X_LED_ON({\cf18 void});\par
+58 \par
+62 {\cf18 void} IO1X_LED_OFF({\cf18 void});\par
+63 \par
+71 {\cf18 void} floatToString({\cf18 float} num, {\cf18 char}* str, {\cf18 int} precision);\par
+72 \par
+73 \par
+74 {\cf21 #endif}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/main.c\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/main.c}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/main.c}
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+C\'F3digo de teste dos sensores da placa IO1X Plained. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <atmel_start.h>}\par
+{\f2 #include <stdio.h>}\par
+{\f2 #include <IO1_drivers.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Fun\'E7\'E3o principal. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+C\'F3digo de teste dos sensores da placa IO1X Plained. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Desenvolvimento atual por Kalidsa Buzzatti de Oliveira. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v main\:main.c}
+{\xe \v main.c\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (void )}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Fun\'E7\'E3o principal. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+< Inclui os arquivos de fun\'E7\'E3o dos sensores da placa IO1X Plained. \par
+Inicializa o MCU, drivers e middleware, e realiza a leitura dos sensores em um loop continuo. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 18 \{\par
+19     {\cf20 /* Initializes MCU, drivers and middleware */}\par
+20     atmel_start_init();\par
+21     IO_SENSOR_INIT();\par
+22     \par
+23     {\cf18 char} message[15]; {\cf20 // Mensagem a ser enviada pela serial para o terminal}\par
+24     \par
+25     {\cf19 while} (1) \{\par
+26                 \par
+27             {\cf20 //Liga LED da placa de expans\'E3o}\par
+28             IO1X_LED_ON();\par
+29             \par
+30              {\cf20 // Leitura e envio da ilumin\'E2ncia calculada}\par
+31             {\cf18 float} voltageSensor = readVoltageSensor();\par
+32             {\cf18 char} voltage_str[20];\par
+33             floatToString(voltageSensor, voltage_str, 4);\par
+34             sprintf(message, {\cf22 "Tens\'E3o do sensor: %s V\\r\\n"},voltage_str);\par
+35             printf(message);\par
+36             \par
+37             {\cf18 float} currentSensor = readCurrentSensor(voltageSensor);\par
+38             {\cf18 char} current_str[20];\par
+39             floatToString(currentSensor, current_str, 8);\par
+40             sprintf(message, {\cf22 "Corrente no sensor: %s \'E2mpere\\r\\n"}, current_str);\par
+41             printf(message);\par
+42             \par
+43             {\cf18 float} light_sensor = readLightSensor(currentSensor); {\cf20 // Ilumin\'E2ncia medida pelo sensor de luz}\par
+44             delay_ms(100);\par
+45             {\cf18 char} iluminance_str[20];\par
+46             floatToString(light_sensor, iluminance_str, 4);\par
+47             \par
+48             sprintf(message, {\cf22 "Iluminancia: %s lux\\r\\n\\n"}, iluminance_str);\par
+49             printf(message);\par
+50             \par
+51             {\cf20 // Leitura e envio da temperatura}\par
+52             uint16_t temperature = readTemperatureSensor(); {\cf20 // Temperatura medida pelo sensor}\par
+53             sprintf(message, {\cf22 "Temperatura: %d C\\r\\n"}, temperature);\par
+54             printf(message);\par
+55     \}\par
+56 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/stdio_start.c\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/stdio_start.c}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/stdio_start.c}
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "atmel_start.h"}\par
+{\f2 #include "stdio_start.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b STDIO_REDIRECT_0_example} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b stdio_redirect_init} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Initialize STDIO Redirect. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v STDIO_REDIRECT_0_example\:stdio_start.c}
+{\xe \v stdio_start.c\:STDIO_REDIRECT_0_example}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void STDIO_REDIRECT_0_example (void )}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 13 \{\par
+14     {\cf20 /* Print welcome message */}\par
+15     printf({\cf22 "\\r\\nHello ATMEL World!\\r\\n"});\par
+16 \}\par
+}
+}
+{\xe \v stdio_redirect_init\:stdio_start.c}
+{\xe \v stdio_start.c\:stdio_redirect_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void stdio_redirect_init (void )}}
+\par
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Initialize STDIO Redirect. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19 \{\par
+20 \par
+21     usart_sync_enable(&TARGETIO);\par
+22     stdio_io_init(&TARGETIO.io);\par
+23 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/stdio_start.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/stdio_start.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/stdio_start.h}
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <stdio.h>}\par
+{\f2 #include <stdio_io.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b STDIO_REDIRECT_0_example} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b stdio_redirect_init} (void)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Initialize STDIO Redirect. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v STDIO_REDIRECT_0_example\:stdio_start.h}
+{\xe \v stdio_start.h\:STDIO_REDIRECT_0_example}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void STDIO_REDIRECT_0_example (void )}}
+\par
+{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 13 \{\par
+14     {\cf20 /* Print welcome message */}\par
+15     printf({\cf22 "\\r\\nHello ATMEL World!\\r\\n"});\par
+16 \}\par
+}
+}
+{\xe \v stdio_redirect_init\:stdio_start.h}
+{\xe \v stdio_start.h\:stdio_redirect_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void stdio_redirect_init (void )}}
+\par
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Initialize STDIO Redirect. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19 \{\par
+20 \par
+21     usart_sync_enable(&TARGETIO);\par
+22     stdio_io_init(&TARGETIO.io);\par
+23 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+stdio_start.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/stdio_start.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/stdio_start.h}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20  * Code generated from Atmel Start.}\par
+3 {\cf20  *}\par
+4 {\cf20  * This file will be overwritten when reconfiguring your Atmel Start project.}\par
+5 {\cf20  * Please copy examples or other code you want to keep to a separate file or main.c}\par
+6 {\cf20  * to avoid loosing it when reconfiguring.}\par
+7 {\cf20  */}\par
+8 {\cf21 #ifndef STDIO_MAIN_H}\par
+9 {\cf21 #define STDIO_MAIN_H}\par
+10 \par
+11 {\cf21 #ifdef __cplusplus}\par
+12 {\cf17 extern} {\cf22 "C"} \{\par
+13 {\cf21 #endif }{\cf20 /* __cplusplus */}{\cf21 }\par
+14 \par
+15 {\cf21 #include <stdio.h>}\par
+16 \par
+17 {\cf21 #include <stdio.h>}\par
+18 {\cf21 #include <stdio_io.h>}\par
+19 \par
+20 {\cf18 void} STDIO_REDIRECT_0_example({\cf18 void});\par
+21 \par
+25 {\cf18 void} stdio_redirect_init({\cf18 void});\par
+26 \par
+27 {\cf21 #ifdef __cplusplus}\par
+28 \}\par
+29 {\cf21 #endif }{\cf20 /* __cplusplus */}{\cf21 }\par
+30 \par
+31 {\cf21 #endif }{\cf20 /* STDIO_MAIN_H */}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/TempAcele_e_Iluini_main.c\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/TempAcele_e_Iluini_main.c}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/TempAcele_e_Iluini_main.c}
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <atmel_start.h>}\par
+{\f2 #include <stdio.h>}\par
+{\f2 #include "lib/BNO055/bno055.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b VCC_TARGET}\~ 3.3\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b Light_sensor_init} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b USART_dbg_init} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b UART_write_byte} (uint8_t byte_to_send)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b GET_light_sensor} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b SET_IO1X_LED_ON} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b SET_IO1X_LED_OFF} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b floatToString} (float num, char *str, int precision)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Converte um n\'FAmero float em string com a precis\'E3o informada. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (void)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+volatile bool {\b conversion_done} = false\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct io_descriptor * {\b USART_debug_io}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct bno055_dev {\b bno055}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b acceleration_x}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b acceleration_y}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b acceleration_z}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b temperature}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e macros\par
+\pard\plain 
+{\xe \v VCC_TARGET\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:VCC_TARGET}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define VCC_TARGET\~ 3.3}}
+\par
+{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v floatToString\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:floatToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void floatToString (float  {\i num}, char *  {\i str}, int  {\i precision})}}
+\par
+{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Converte um n\'FAmero float em string com a precis\'E3o informada. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Converte um n\'FAmero float em string com a precis\'E3o informada \'C9 usada para poder imprimir um valor float na tela usando o sprintf O compilador usado n\'E3o aceita float no sprintf \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 85                                                         \{\par
+86     {\cf18 int} i = 0;\par
+87 \par
+88     {\cf20 // Extract the integral part}\par
+89     {\cf18 int} integralPart = (int)num;\par
+90 \par
+91     {\cf20 // Convert the integral part to string}\par
+92     {\cf19 do} \{\par
+93         str[i++] = integralPart % 10 + {\cf23 '0'};\par
+94         integralPart /= 10;\par
+95     \} {\cf19 while} (integralPart > 0);\par
+96 \par
+97     {\cf20 // Reverse the integral part string}\par
+98     {\cf18 int} j;\par
+99     {\cf18 int} len = i;\par
+100     {\cf19 for} (j = 0; j < len / 2; j++) \{\par
+101         {\cf18 char} temp = str[j];\par
+102         str[j] = str[len - j - 1];\par
+103         str[len - j - 1] = temp;\par
+104     \}\par
+105 \par
+106     {\cf20 // Add decimal point}\par
+107     str[i++] = {\cf23 '.'};\par
+108 \par
+109     {\cf20 // Extract the fractional part}\par
+110     {\cf18 float} fractionalPart = num - (int)num;\par
+111 \par
+112     {\cf20 // Convert the fractional part to string}\par
+113     {\cf18 int} k;\par
+114     {\cf19 for} (k = 0; k < precision; k++) \{\par
+115         fractionalPart *= 10;\par
+116         {\cf18 int} digit = (int)fractionalPart;\par
+117         str[i++] = digit + {\cf23 '0'};\par
+118         fractionalPart -= digit;\par
+119     \}\par
+120 \par
+121     {\cf20 // Add null-terminating character}\par
+122     str[i] = {\cf23 '\\0'};\par
+123 \}\par
+}
+}
+{\xe \v GET_light_sensor\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:GET_light_sensor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float GET_light_sensor (void )}}
+\par
+{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+L\'EA o valor digital do sensor de luz ap\'F3s passar pelo ADC e calcula e entrega a ilumin\'E2ncia com base nas caracter\'EDsticas el\'E9tricas do sensor \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 47                             \{\par
+48     uint8_t lightSensorValue;\par
+49     {\cf18 float} voltageSensor;\par
+50     {\cf18 float} iluminance;\par
+51 \par
+52     {\cf20 /* Faz a convers\'E3o AD do sensor de luz*/}\par
+53     adc_async_start_conversion(&Light_sensor_ADC);\par
+54     {\cf19 while}(!conversion_done)\{\}\par
+55     adc_async_read_channel(&Light_sensor_ADC, 0, &lightSensorValue, 1);\par
+56 \par
+57     {\cf20 /* Faz a defini\'E7\'E3o dos valores de tens\'E3o lidos do sensor a partir dos dados quantizados do ADC*/}\par
+58     voltageSensor = lightSensorValue * VCC_TARGET / 255;\par
+59 \par
+60     {\cf20 /* Calcula a ilumin\'E2ncia com base na corrente do resistor de coletor do fototransistor e na rela\'E7\'E3o entre lux e corrente*/}\par
+61     iluminance = (VCC_TARGET - voltageSensor) * 200;\par
+62 \par
+63     {\cf19 return} iluminance;\par
+64 \}\par
+}
+}
+{\xe \v Light_sensor_init\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:Light_sensor_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Light_sensor_init (void )}}
+\par
+{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa o conversor AD para o sensor de luz \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23 \{\par
+24     adc_async_register_callback(&Light_sensor_ADC, 0, ADC_ASYNC_CONVERT_CB, convert_cb_Light_sensor_ADC);\par
+25     adc_async_enable_channel(&Light_sensor_ADC, 0);\par
+26     adc_async_start_conversion(&Light_sensor_ADC);\par
+27 \}\par
+}
+}
+{\xe \v main\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (void )}}
+\par
+{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 132 \{\par
+133     {\cf20 /* Initializes MCU, drivers and middleware */}\par
+134     atmel_start_init();\par
+135     Light_sensor_init();\par
+136     USART_dbg_init();\par
+137 \par
+138     {\cf18 char} message[50];\par
+139     {\cf18 char} acceleration_str[10];\par
+140     {\cf18 char} temperature_str[10];\par
+141 \par
+142     {\cf20 /* Inicializa o aceler\'F4metro */}\par
+143     bno055_init(&bno055); {\cf20 // Corrigido para usar 'bno055_init' em vez de 'struct bno055_init'}\par
+144 \par
+145     {\cf19 while} (1) \{\par
+146         {\cf20 /* L\'EA os dados de acelera\'E7\'E3o do aceler\'F4metro */}\par
+147         bno055_read_acceleration(&bno055, &acceleration_x, &acceleration_y, &acceleration_z); {\cf20 // Corrigido para usar 'bno055_read_acceleration' em vez de 'struct bno055_read_acceleration'}\par
+148 \par
+149         {\cf20 /* L\'EA a temperatura do sensor */}\par
+150         temperature = bno055_get_temperature(&bno055); {\cf20 // Corrigido para usar 'bno055_get_temperature' em vez de 'struct bno055_get_temperature'}\par
+151 \par
+152         {\cf20 /* Formata as acelera\'E7\'F5es como strings */}\par
+153         floatToString(acceleration_x, acceleration_str, 4);\par
+154         floatToString(temperature, temperature_str, 2);\par
+155 \par
+156         {\cf20 /* Constr\'F3i a mensagem a ser enviada pela UART */}\par
+157         sprintf(message, {\cf22 "Aceleracao X: %s\\r\\nTemperatura: %s\\r\\n"}, acceleration_str, temperature_str);\par
+158         printf(message);\par
+159 \par
+160         {\cf20 /* Liga e desliga o LED da placa de expans\'E3o */}\par
+161         delay_ms(20);\par
+162         SET_IO1X_LED_OFF();\par
+163         delay_ms(20);\par
+164     \}\par
+165 \}\par
+}
+}
+{\xe \v SET_IO1X_LED_OFF\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:SET_IO1X_LED_OFF}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SET_IO1X_LED_OFF (void )}}
+\par
+{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Desliga o LED da placa de expans\'E3o IO1X \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 76                            \{\par
+77     gpio_set_pin_level(LED, {\cf17 false});\par
+78 \}\par
+}
+}
+{\xe \v SET_IO1X_LED_ON\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:SET_IO1X_LED_ON}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SET_IO1X_LED_ON (void )}}
+\par
+{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Liga o LED da placa de expans\'E3o IO1X \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 69                           \{\par
+70     gpio_set_pin_level(LED, {\cf17 true});\par
+71 \}\par
+}
+}
+{\xe \v UART_write_byte\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:UART_write_byte}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UART_write_byte (uint8_t  {\i byte_to_send})}}
+\par
+{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Escreve 1 byte na UART de debug \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 40                                           \{\par
+41     io_write(USART_debug_io, &byte_to_send, 1);\par
+42 \}\par
+}
+}
+{\xe \v USART_dbg_init\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:USART_dbg_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void USART_dbg_init (void )}}
+\par
+{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicializa a UART usada como debug do programa Pode ser usada para printf \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 33                          \{\par
+34     usart_sync_get_io_descriptor(&USART_debug, &USART_debug_io);\par
+35 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Vari\'E1veis\par
+\pard\plain 
+{\xe \v acceleration_x\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:acceleration_x}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float acceleration_x}}
+\par
+{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v acceleration_y\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:acceleration_y}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float acceleration_y}}
+\par
+{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v acceleration_z\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:acceleration_z}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float acceleration_z}}
+\par
+{\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v bno055\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:bno055}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct bno055_dev bno055}}
+\par
+{\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v conversion_done\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:conversion_done}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+volatile bool conversion_done = false}}
+\par
+{\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v temperature\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:temperature}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float temperature}}
+\par
+{\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v USART_debug_io\:TempAcele_e_Iluini_main.c}
+{\xe \v TempAcele_e_Iluini_main.c\:USART_debug_io}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct io_descriptor* USART_debug_io}}
+\par
+{\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/temperature_sensor.c\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/temperature_sensor.c}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/temperature_sensor.c}
+{\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Temperature Sensor implementation. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <temperature_sensor.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b temperature_sensor} * {\b temperature_sensor_construct} (struct {\b temperature_sensor} *const me, void *const io, const struct {\b temperature_sensor_interface} *const interface)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construct abstract temperature sensor. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b temperature_sensor_read} (const struct {\b temperature_sensor} *const me)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Read temperature from the given sensor. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Temperature Sensor implementation. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Copyright (c) 2016-2018 Microchip Technology Inc. and its subsidiaries.\par
+\\asf_license_start \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v temperature_sensor_construct\:temperature_sensor.c}
+{\xe \v temperature_sensor.c\:temperature_sensor_construct}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct {\b temperature_sensor} * temperature_sensor_construct (struct {\b temperature_sensor} *const  {\i me}, void *const  {\i io}, const struct {\b temperature_sensor_interface} *const  {\i interface})}}
+\par
+{\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construct abstract temperature sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i me} \cell }{The pointer to temperature sensor to initialize \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i io} \cell }{The pointer to instance of interface to actual sensor \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i interface} \cell }{The pointer to interface of temperature sensor\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+pointer to initialized sensor \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 41 \{\par
+42     me->io        = io;\par
+43     me->interface = interface;\par
+44 \par
+45     {\cf19 return} me;\par
+46 \}\par
+}
+}
+{\xe \v temperature_sensor_read\:temperature_sensor.c}
+{\xe \v temperature_sensor.c\:temperature_sensor_read}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float temperature_sensor_read (const struct {\b temperature_sensor} *const  {\i me})}}
+\par
+{\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Read temperature from the given sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i me} \cell }{The pointer to temperature sensor to read temperature from\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+temperature \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 52 \{\par
+53     {\cf19 return} me->interface->read(me);\par
+54 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/temperature_sensor.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/temperature_sensor.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/temperature_sensor.h}
+{\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Temperature Sensor declaration. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <compiler.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b temperature_sensor_interface}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interface of abstract temperature sensor. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b temperature_sensor}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Abstract temperature sensor. }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b temperature_sensor} * {\b temperature_sensor_construct} (struct {\b temperature_sensor} *const me, void *const io, const struct {\b temperature_sensor_interface} *const interface)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construct abstract temperature sensor. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b temperature_sensor_read} (const struct {\b temperature_sensor} *const me)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Read temperature from the given sensor. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Temperature Sensor declaration. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Copyright (c) 2016-2018 Microchip Technology Inc. and its subsidiaries.\par
+\\asf_license_start \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v temperature_sensor_construct\:temperature_sensor.h}
+{\xe \v temperature_sensor.h\:temperature_sensor_construct}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct {\b temperature_sensor} * temperature_sensor_construct (struct {\b temperature_sensor} *const  {\i me}, void *const  {\i io}, const struct {\b temperature_sensor_interface} *const  {\i interface})}}
+\par
+{\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construct abstract temperature sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i me} \cell }{The pointer to temperature sensor to initialize \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i io} \cell }{The pointer to instance of interface to actual sensor \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i interface} \cell }{The pointer to interface of temperature sensor\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+pointer to initialized sensor \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 41 \{\par
+42     me->io        = io;\par
+43     me->interface = interface;\par
+44 \par
+45     {\cf19 return} me;\par
+46 \}\par
+}
+}
+{\xe \v temperature_sensor_read\:temperature_sensor.h}
+{\xe \v temperature_sensor.h\:temperature_sensor_read}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float temperature_sensor_read (const struct {\b temperature_sensor} *const  {\i me})}}
+\par
+{\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Read temperature from the given sensor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i me} \cell }{The pointer to temperature sensor to read temperature from\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+temperature \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 52 \{\par
+53     {\cf19 return} me->interface->read(me);\par
+54 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+temperature_sensor.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/temperature_sensor.h}
+{\xe \v D:/Usu\'E1rio/Dell/Desktop/ot-rtos/Sensor_de_luz_vers\'E3o_final/IO_samr21/temperature_sensor.h}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+34 {\cf21 #ifndef _TEMPERATURE_SENSOR_H_INCLUDED}\par
+35 {\cf21 #define _TEMPERATURE_SENSOR_H_INCLUDED}\par
+36 \par
+37 {\cf21 #include <compiler.h>}\par
+38 \par
+39 {\cf21 #ifdef __cplusplus}\par
+40 {\cf17 extern} {\cf22 "C"} \{\par
+41 {\cf21 #endif}\par
+42 \par
+44 {\cf17 struct }temperature_sensor;\par
+45 \par
+49 {\cf17 struct }temperature_sensor_interface \{\par
+50     float (*read)({\cf17 const} {\cf17 struct }temperature_sensor *{\cf17 const} me);\par
+51 \};\par
+52 \par
+56 {\cf17 struct }temperature_sensor \{\par
+58     {\cf18 void} *io;\par
+60     {\cf17 const} {\cf17 struct }temperature_sensor_interface *interface;\par
+61 \};\par
+62 \par
+72 {\cf17 struct }temperature_sensor *temperature_sensor_construct({\cf17 struct} temperature_sensor *{\cf17 const} me, {\cf18 void} *{\cf17 const} io,\par
+73                                                         {\cf17 const} {\cf17 struct} temperature_sensor_interface *{\cf17 const} interface);\par
+74 \par
+82 {\cf18 float} temperature_sensor_read({\cf17 const} {\cf17 struct} temperature_sensor *{\cf17 const} me);\par
+83 \par
+84 {\cf21 #ifdef __cplusplus}\par
+85 \}\par
+86 {\cf21 #endif}\par
+87 \par
+88 {\cf21 #endif }{\cf20 /* _TEMPERATURE_SENSOR_H_INCLUDED */}{\cf21 }\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Sum\'E1rio\par 
+\pard\plain 
+{\tc \v Sum\'E1rio}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
